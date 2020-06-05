@@ -1,0 +1,19 @@
+<b>Gaussian random numbers</b> <a class=right href="https://hyperskill.org/learn/step/4941">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>For the given numbers <strong>K</strong>, <strong>N</strong>, and&nbsp;<strong>M</strong>&nbsp;find the first seed that is greater or equal to <strong>K</strong> where each of <strong>N</strong> Gaussian numbers is less&nbsp;than or equal to&nbsp;<strong>M</strong>.</p> 
+  <p>The input contains&nbsp;numbers&nbsp;<strong>K</strong>,&nbsp;<strong>N</strong>,&nbsp;<strong>M</strong>&nbsp;in a single line.</p> 
+  <p>You should output the seed.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-406').style.display='inline'"> Hint </button> </p>
+  <div id="hint-406" style="display:none;">
+   You have to check all 
+   <strong>N</strong> iterations of Gaussian generated numbers to be less than or equal to&nbsp;
+   <strong>M</strong>. If that is true, then escape loop and print the seed. If any of the generated numbers is greater than M, then you have to test out the next seed and go to the loop all over again.
+  </div>
+  <p></p> 
+  <p>Don't get too upset if you still don't understand this problem. Skip it or google for more information.</p>
+ </body>
+</html><br><b>Sample Input:</b><br>0 5 0<br><b>Sample Output:</b><br>38<br><br><b>Sample Input:</b><br>0 5 -1.5<br><b>Sample Output:</b><br>498666<br><br><b>Sample Input:</b><br>10000 1 1.9<br><b>Sample Output:</b><br>10000<br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/4910">Show topic summary</a>

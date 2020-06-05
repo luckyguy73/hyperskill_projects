@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-30T20:50:28" hostname="hulk-smash.local" time="0.18">
+  <properties/>
+  <testcase name="start" classname="CoffeeMachineTest" time="0.18"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+400 of water
+540 of milk
+120 of beans
+9 of cups
+550 of money
+
+Write action (buy, fill, take, remaining, exit):
+> buy
+
+What do you want to buy?
+1 - espresso
+2 - latte
+3 - cappuccino
+4 - back to main menu:
+> 2
+
+I have enough ingredients, making you a coffee!
+
+Write action (buy, fill, take, remaining, exit):
+> buy
+
+What do you want to buy?
+1 - espresso
+2 - latte
+3 - cappuccino
+4 - back to main menu:
+> 2
+
+Sorry, we don't have enough ingredients to make your latte.
+Please choose a different drink or try again later, thank you.
+
+Write action (buy, fill, take, remaining, exit):
+> fill
+
+Write how many ml of water do you want to add:
+> 1000
+Write how many ml of milk do you want to add:
+> 0
+Write how many grams of coffee beans do you want to add:
+> 0
+Write how many disposable cups of coffee do you want to add:
+> 0
+
+Write action (buy, fill, take, remaining, exit):
+> buy
+
+What do you want to buy?
+1 - espresso
+2 - latte
+3 - cappuccino
+4 - back to main menu:
+> 2
+
+I have enough ingredients, making you a coffee!
+
+Write action (buy, fill, take, remaining, exit):
+> take
+
+I gave you $564
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+700 of water
+390 of milk
+80 of beans
+7 of cups
+0 of money
+
+Write action (buy, fill, take, remaining, exit):
+> exit
+Goodbye!
+?[1;31m
+Start test 2?[0m
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+400 of water
+540 of milk
+120 of beans
+9 of cups
+550 of money
+
+Write action (buy, fill, take, remaining, exit):
+> fill
+
+Write how many ml of water do you want to add:
+> 3000
+Write how many ml of milk do you want to add:
+> 3000
+Write how many grams of coffee beans do you want to add:
+> 3000
+Write how many disposable cups of coffee do you want to add:
+> 3000
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+3400 of water
+3540 of milk
+3120 of beans
+3009 of cups
+550 of money
+
+Write action (buy, fill, take, remaining, exit):
+> exit
+Goodbye!
+?[1;31m
+Start test 3?[0m
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+400 of water
+540 of milk
+120 of beans
+9 of cups
+550 of money
+
+Write action (buy, fill, take, remaining, exit):
+> buy
+
+What do you want to buy?
+1 - espresso
+2 - latte
+3 - cappuccino
+4 - back to main menu:
+> 1
+
+I have enough ingredients, making you a coffee!
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+150 of water
+540 of milk
+104 of beans
+8 of cups
+554 of money
+
+Write action (buy, fill, take, remaining, exit):
+> exit
+Goodbye!
+?[1;31m
+Start test 4?[0m
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+400 of water
+540 of milk
+120 of beans
+9 of cups
+550 of money
+
+Write action (buy, fill, take, remaining, exit):
+> buy
+
+What do you want to buy?
+1 - espresso
+2 - latte
+3 - cappuccino
+4 - back to main menu:
+> 2
+
+I have enough ingredients, making you a coffee!
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+50 of water
+465 of milk
+100 of beans
+8 of cups
+557 of money
+
+Write action (buy, fill, take, remaining, exit):
+> exit
+Goodbye!
+?[1;31m
+Start test 5?[0m
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+400 of water
+540 of milk
+120 of beans
+9 of cups
+550 of money
+
+Write action (buy, fill, take, remaining, exit):
+> buy
+
+What do you want to buy?
+1 - espresso
+2 - latte
+3 - cappuccino
+4 - back to main menu:
+> 3
+
+I have enough ingredients, making you a coffee!
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+200 of water
+440 of milk
+108 of beans
+8 of cups
+556 of money
+
+Write action (buy, fill, take, remaining, exit):
+> exit
+Goodbye!
+?[1;31m
+Start test 6?[0m
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+400 of water
+540 of milk
+120 of beans
+9 of cups
+550 of money
+
+Write action (buy, fill, take, remaining, exit):
+> take
+
+I gave you $550
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+400 of water
+540 of milk
+120 of beans
+9 of cups
+0 of money
+
+Write action (buy, fill, take, remaining, exit):
+> exit
+Goodbye!
+?[1;31m
+Start test 7?[0m
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+400 of water
+540 of milk
+120 of beans
+9 of cups
+550 of money
+
+Write action (buy, fill, take, remaining, exit):
+> buy
+
+What do you want to buy?
+1 - espresso
+2 - latte
+3 - cappuccino
+4 - back to main menu:
+> back
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+400 of water
+540 of milk
+120 of beans
+9 of cups
+550 of money
+
+Write action (buy, fill, take, remaining, exit):
+> exit
+Goodbye!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

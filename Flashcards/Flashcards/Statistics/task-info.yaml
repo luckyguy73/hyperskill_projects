@@ -1,0 +1,704 @@
+type: edu
+custom_name: stage6
+files:
+- name: test/common/DialogClue.kt
+  visible: false
+  text: |
+    package common
+
+    import org.hyperskill.hstest.testcase.CheckResult
+    import org.hyperskill.hstest.testcase.TestCase
+
+
+    // ---- DialogClue ----
+
+    /** May be several lines or just one. */
+    interface Phrase {
+        fun toPhraseLines(): List<PhraseLine>
+    }
+
+    /** list of input and output lines, combined together. */
+    fun compositePhrase(block: () -> List<Phrase>) = object : Phrase {
+        override fun toPhraseLines() = block().flatMap { it.toPhraseLines() }
+    }
+
+    fun compositePhrase(vararg phrases: Phrase) = object : Phrase {
+        override fun toPhraseLines() = phrases.flatMap { it.toPhraseLines() }
+    }
+
+    /** Either user (input) or output phrase. Each phrase should be a line. */
+    sealed class PhraseLine : Phrase {
+        override fun toPhraseLines() = listOf(this)
+    }
+
+    /** Some mutable data, that is passed across dialog phrases. */
+    class Context {
+        val rawData = mutableMapOf<String, Any>()
+    }
+
+    class UserLine(val text: String, val updateContext: CtxUpdate = {}) : PhraseLine() {
+
+    }
+    typealias CtxUpdate = (ctx: Context) -> Unit
+
+    class OutputLine(val checker: (text: String, ctx: Context) -> CheckResult) : PhraseLine()
+
+    /** This function creates a line with user input (our test input).
+     *
+     * Unfortunately we can't access the Context, when we adding user text.
+     * This occurs because of HS test framework limitations:
+     * we need to pass all inputs first, and then start checking outputs. */
+    fun user(text: String, updateContext: (ctx: Context) -> Unit = {}) = UserLine(text, updateContext)
+
+    fun anyLine(updateContext: CtxUpdate = {}) = OutputLine { _, ctx -> CheckResult.correct().also { updateContext(ctx) } }
+
+    fun containing(
+            vararg parts: String,
+            ignoreCase: Boolean = true,
+            hint: String? = null,
+            updateContext: CtxUpdate = {}
+    ) = OutputLine { line, context ->
+        fun buildFeedback(): String {
+            val feedback = StringBuilder()
+            feedback.append("Your line\n`$line`\nshould contain ${parts.joinToString("`, `", "`", "`")}")
+            if (ignoreCase) {
+                feedback.append(" (ignoring case)")
+            }
+            feedback.append(".")
+            if (hint != null) {
+                feedback.append("\n$hint")
+            }
+            return feedback.toString()
+        }
+
+        var startIndex = 0
+        for (part in parts) {
+            startIndex = line.indexOf(part, startIndex, ignoreCase)
+            if (startIndex == -1) {
+                return@OutputLine CheckResult.wrong(buildFeedback())
+            }
+        }
+        updateContext(context) // everything is correct, update context
+        CheckResult.correct();
+    }
+
+    class DialogClue(private val phrases: List<PhraseLine>) {
+
+        private val inputPhrases = phrases.filter { it is UserLine }.map { it as UserLine }
+        private val outputPhrases = phrases.filter { it is OutputLine }.map { it as OutputLine }
+
+        fun generateInput() = inputPhrases
+                .joinToString("\n", postfix = "\n") { it.text }
+
+        fun checkOutput(output: String): CheckResult {
+            val lines = output.lines()
+                    .filter { it.isNotBlank() }
+
+            fun wrongOutputSizeFeedback() = CheckResult.wrong("The number of lines in your output is ${lines.size}, " +
+                    "but it should be ${outputPhrases.size}. " +
+                    "Check, that you output your lines with println, not print. And there are no extra outputs.")
+
+    // here we store some mutable data from phrase to phrase
+            val context = Context()
+
+            val lineIter = lines.listIterator()
+            phrases.forEach { phraseLine ->
+                when (phraseLine) {
+                    is UserLine -> phraseLine.updateContext(context)
+                    is OutputLine -> {
+                        if (!lineIter.hasNext()) {
+                            return wrongOutputSizeFeedback()
+                        }
+                        val result = phraseLine.checker(lineIter.next(), context)
+                        if (!result.isCorrect) {
+                            return CheckResult.wrong(result.feedback)
+                        }
+                    }
+                }
+            }
+
+            if (lineIter.hasNext()) {
+                return wrongOutputSizeFeedback()
+            }
+
+            return CheckResult.correct();
+        }
+    }
+
+    fun dialogTest(vararg phrases: Phrase): TestCase<DialogClue> {
+        val dialogClue = DialogClue(phrases.flatMap { it.toPhraseLines() })
+        return TestCase<DialogClue>()
+                .setInput(dialogClue.generateInput())
+                .setAttach(dialogClue)
+    }
+  learner_created: false
+- name: test/common/FlashcardsStage6Test.kt
+  visible: false
+  text: |
+    package common
+
+    import org.hyperskill.hstest.stage.StageTest
+    import org.hyperskill.hstest.testcase.CheckResult
+    import org.hyperskill.hstest.testcase.TestCase
+    import flashcards.Main
+    import java.io.File
+
+    abstract class FlashcardsStage6Test : StageTest<DialogClue>(Main::class.java) {
+
+        override fun generate(): List<TestCase<DialogClue>> {
+            File("capitals.txt").delete()
+            File("testLog.txt").delete()
+            val tests = mutableListOf<TestCase<DialogClue>>()
+
+            val capitalList = mutableListOf<Pair<String, String>>()
+            fun capitals() = capitalList.toTypedArray()
+
+            // wrappers for add/remove card, but saving cards to capitalList:
+            fun addCapital(card: String, def: String) = addCard(card, def)
+                    .also { capitalList += card to def }
+
+            fun removeCapital(card: String) = removeCard(card)
+                    .also { capitalList.removeIf { it.first == card } }
+
+            // clear files
+            tests += dialogTest(
+                    exportCards("capitals.txt", 0),
+                    exit()
+            )
+            tests += dialogTest(
+                    hardestCards(),
+                    addCapital("France", "Paris"),
+                    askCards("France", "??"),
+                    hardestCards(),// wrong cards for test are updated in the previous line
+                    resetStats(),
+                    hardestCards(),
+                    addCapital("Russia", "Moscow"),
+                    askCards("??", "??"),
+                    hardestCards(),
+                    askCards("??", "??"),
+                    hardestCards(),
+                    askCards("??", "??"),
+                    hardestCards(),
+                    askCards("??", "??"),
+                    hardestCards(),
+                    askCards("??", "??", saveWrongAnsweredCapitals = true),
+                    hardestCards(),
+                    exportCards("capitals.txt", 2),
+                    log("testLog.txt"),
+                    exit()
+            )
+            tests += dialogTest(
+                    hardestCards(),
+                    addCard("France", "UpdateMeFromImport"),
+                    askCards("??", "??"),
+                    importCards("capitals.txt", *capitals()),
+                    hardestCards(wrongAnsweredCapitals), // restored from the previous test
+                    removeCapital("France"),
+                    removeCapital("Russia"),
+                    hardestCards(), // empty
+                    exit()
+            )
+            return tests
+        }
+
+        override fun check(reply: String, clue: DialogClue): CheckResult {
+            return clue.checkOutput(reply)
+        }
+
+
+        // ------ extensions for building a dialog: ------
+
+        fun inputAction(action: String) = compositePhrase {
+            listOf(containing("action", hint = "This line should ask the action."), user(action))
+        }
+
+        inner class LogPhrase(val fileName: String) : Phrase {
+            override fun toPhraseLines() = compositePhrase(
+                    inputAction("log"),
+                    anyLine(),
+                    user(fileName),
+                    OutputLine { text, ctx ->
+                        val result = containing("saved", hint = "This line should indicate, that the log has been saved.").checker(text, ctx)
+                        if (!result.isCorrect) {
+                            return@OutputLine result
+                        }
+                        if (!File(fileName).exists()) {
+                            return@OutputLine CheckResult.wrong("The log file $fileName does not exist.")
+                        }
+                        CheckResult.correct();
+                    }
+            ).toPhraseLines()
+        }
+
+        private fun log(fileName: String) = LogPhrase(fileName)
+
+        private fun resetStats() = compositePhrase(
+                inputAction("reset stats"), containing("reset", hint = "This line should confirm card statistics reset.",
+                updateContext = { ctx -> ctx.wrongCards.clear() })
+        )
+
+        /** Between tests we cache wrong answered capitals to check hardest cards, when we restore them from file. */
+        private val wrongAnsweredCapitals: MutableList<String> = mutableListOf()
+
+        /** [customWrongCards] are used to load saved wrong cards from the previous test. */
+        fun hardestCards(customWrongCards: List<String>? = null) = compositePhrase(
+                inputAction("hardest card"),
+                OutputLine { text, ctx ->
+                    if (customWrongCards != null) {
+                        ctx.wrongCards.clear()
+                        ctx.wrongCards.addAll(customWrongCards)
+                    }
+                    val groupedCards = ctx.wrongCards
+                            .groupBy { it }.mapValues { (_, v) -> v.size }
+                    val maxMistakes = groupedCards.values.max() ?: 0
+                    val hardestCards = groupedCards.filterValues { it == maxMistakes }.keys.toList()
+
+                    when (hardestCards.size) {
+                        0 -> return@OutputLine containing("There are no cards with errors").checker(text, ctx)
+                        1 -> return@OutputLine containing("The hardest card is \"${hardestCards[0]}\"",
+                                "$maxMistakes").checker(text, ctx)
+                        else -> {
+                            hardestCards.forEach { card ->
+                                if (card !in text) {
+                                    return@OutputLine CheckResult.wrong("Your line `$text`\n" +
+                                            "should contain the hardest cards " +
+                                            "${hardestCards.joinToString("\", \"", "\"", "\"")} with $maxMistakes mistakes.")
+                                }
+                            }
+                            val numberOfHardestCards = text.count { it == '"' }
+                            if (numberOfHardestCards != hardestCards.size * 2) {
+                                return@OutputLine CheckResult.wrong("Your line `$text`\n" +
+                                        "contains more hardest cards, than expected. Expected: $hardestCards.")
+                            }
+                            if (maxMistakes.toString() !in text) {
+                                if (numberOfHardestCards != hardestCards.size) {
+                                    return@OutputLine CheckResult.wrong("Your line `$text`\n" +
+                                            "should contain $maxMistakes mistakes for your hardest cards.")
+                                }
+                            }
+                        }
+                    }
+                    CheckResult.correct();
+                }
+        )
+
+
+        // extend dialog context with our own data:
+
+        @Suppress("UNCHECKED_CAST")
+        private val Context.cardToDef
+            get() = rawData.getOrPut("cardToDef") { mutableMapOf<String, String>() } as MutableMap<String, String>
+
+        @Suppress("UNCHECKED_CAST")
+        /** All cards, that were answered wrong. */
+        private val Context.wrongCards
+            get() = rawData.getOrPut("wrongCards") { mutableListOf<String>() } as MutableList<String>
+
+
+        @Suppress("UNCHECKED_CAST")
+        private val Context.defToCard
+            get() = rawData.getOrPut("defToCard") { mutableMapOf<String, String>() } as MutableMap<String, String>
+
+        private fun Context.addCard(card: String, definition: String) {
+            cardToDef[card] = definition
+            defToCard[definition] = card
+        }
+
+        private fun Context.removeCard(card: String) {
+            val def = cardToDef.remove(card)
+            if (def != null) {
+                defToCard.remove(def)
+            }
+        }
+
+
+        private fun addCard(card: String, def: String) = compositePhrase(
+                inputAction("add"),
+                anyLine(), user(card),
+                anyLine(), user(def),
+                containing("has been added",
+                        hint = "This line should add the pair (\"$card\":\"$def\").",
+                        updateContext = { ctx -> ctx.addCard(card, def) })
+        )
+
+
+        private fun existingDef(card: String, def: String) = compositePhrase(
+                inputAction("add"),
+                anyLine(), user(card),
+                anyLine(), user(def),
+                containing("definition", "exists", hint = "This line should reject the existing definition `$def`.")
+        )
+
+
+        private fun existingCard(card: String) = compositePhrase(
+                inputAction("add"),
+                anyLine(), user(card),
+                containing("card", "exists", hint = "This line should reject the existing card `$card`.")
+        )
+
+        private fun removeCard(card: String) = compositePhrase(
+                inputAction("remove"),
+                anyLine(), user(card),
+                containing("has been removed", hint = "This line should remove the card `$card`.",
+                        updateContext = { ctx ->
+                            ctx.removeCard(card)
+                            ctx.wrongCards.removeAll(listOf(card))
+                        })
+        )
+
+        private fun removeNonExisting(card: String) = compositePhrase(
+                inputAction("remove"),
+                anyLine(), user(card),
+                containing("Can't remove \"$card\"", hint = "This line should reject removing non existing card `$card`.")
+        )
+
+
+        private fun importCards(fileName: String, vararg cards: Pair<String, String>) = compositePhrase(
+                inputAction("import"),
+                anyLine(), user(fileName),
+                containing("${cards.size} cards have been loaded",
+                        updateContext = { ctx ->
+                            val cardToDef = ctx.cardToDef
+                            val defToCard = ctx.defToCard
+                            cards.forEach { (card, def) ->
+                                if (card in cardToDef) {
+                                    defToCard.remove(cardToDef[card]) // erase wrong reverse link
+                                }
+                                ctx.addCard(card, def) // with update!!
+                            }
+                        })
+        )
+
+        private fun importNonExisting(fileName: String) = compositePhrase(
+                inputAction("import"),
+                anyLine(), user(fileName),
+                containing("not found", hint = "This line should say, that the file $fileName does not exist.")
+        )
+
+        private fun exportCards(fileName: String, cardsSize: Int) = compositePhrase(
+                inputAction("export"),
+                anyLine(), user(fileName),
+                containing("$cardsSize cards have been saved")
+        )
+
+        private fun exit() = compositePhrase(
+                inputAction("exit"),
+                anyLine()
+        )
+
+        /** Perform ask action. [ansDefs] are our test answers with definitions.
+         * We don't know are they wrong or correct, because the test is random. */
+        private fun askCards(vararg ansDefs: String, saveWrongAnsweredCapitals: Boolean = false) = compositePhrase {
+            val startPhrases = listOf(
+                    inputAction("ask"),
+                    anyLine(), user(ansDefs.size.toString())
+            )
+            // here we add the dialog logic, by creating base OutputLine class with a custom checker
+            // we use context to connect with neighbor checkers
+
+            // iterate test answered definitions:
+            val repeatingPhrases = ansDefs.map { ansDef ->
+                compositePhrase(
+                        OutputLine { text, ctx ->
+                            val askedCard = text.dropWhile { it != '"' }.dropLastWhile { it != '"' }.trim('"')
+                            if (askedCard.isEmpty()) {
+                                return@OutputLine CheckResult.wrong("Not found card in quotes. " +
+                                        "This line should ask the definition of a random card.")
+                            }
+                            if (askedCard !in ctx.cardToDef) {
+                                return@OutputLine CheckResult.wrong("You asked the definition of the non existing card: `$askedCard`.")
+                            }
+                            ctx.rawData["lastAskedCard"] = askedCard
+                            CheckResult.correct();
+                        },
+                        // unfortunately we can't access the Context in user action, see documentation of user()
+                        user(ansDef),
+                        // check the answer:
+                        OutputLine { text, ctx ->
+                            val askedCard = ctx.rawData["lastAskedCard"]?.toString()
+                                    ?: throw IllegalStateException("Not found lastAskedCard in the `ask` checker.")
+                            val cardToDef = ctx.cardToDef
+                            val defToCard = ctx.defToCard
+                            val rightAns = cardToDef[askedCard]
+
+                            val hint = "The asked card was `$askedCard`, the answer was `$ansDef`."
+                            if (cardToDef[askedCard] == ansDef)
+                                containing("Correct answer", hint = hint).checker(text, ctx)
+                            else {
+                                ctx.wrongCards += askedCard
+
+                                val isDefFor = defToCard[ansDef]
+                                if (isDefFor != null) {
+                                    containing("Wrong answer", "The correct one is \"$rightAns\"",
+                                            "you've just written the definition of \"$isDefFor\"", hint = hint).checker(text, ctx)
+                                } else {
+                                    // should not contain definition hint!!
+                                    if (text.contains("you've just written the definition of")) {
+                                        CheckResult.wrong("Your line\n`$text`\nshould NOT contain " +
+                                                "`you've just written the definition of`.\n$hint")
+                                    } else {
+                                        containing("Wrong answer", "The correct one is \"$rightAns\"", hint = hint).checker(text, ctx)
+                                    }
+
+                                }
+                            }.also {
+                                // only for these tests. To test restoring wrong capitals from file.
+                                if (saveWrongAnsweredCapitals) {
+                                    wrongAnsweredCapitals.clear()
+                                    wrongAnsweredCapitals.addAll(ctx.wrongCards)
+                                }
+                            }
+                        }
+                )
+            }
+            (startPhrases + repeatingPhrases)
+        }
+    }
+  learner_created: false
+- name: test/FlashcardsTest.java
+  visible: false
+  text: |
+    import common.FlashcardsStage6Test;
+
+    public class FlashcardsTest extends FlashcardsStage6Test {
+        // just empty class, but not abstract so it can be run
+    }
+  learner_created: false
+- name: src/flashcards/Main.java
+  visible: true
+  text: |
+    package flashcards;
+
+    import java.util.*;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner scan = new Scanner(System.in);
+            Flashcards cards = new Flashcards();
+            while (cards.getState() != Flashcards.State.EXIT) {
+                cards.execute(scan.nextLine());
+            }
+        }
+
+    }
+  learner_created: true
+- name: src/flashcards/Flashcards.java
+  visible: true
+  text: |
+    package flashcards;
+
+    import java.io.*;
+    import java.util.*;
+    import java.util.stream.Collectors;
+
+    public class Flashcards {
+
+        enum State {
+            MAIN_MENU, ADD_TERM, ADD_DEF, REMOVING, IMPORT_CARDS, EXPORT_CARDS, BEGIN_ASKING, ASK_QUESTION, EXIT
+        }
+
+        private final Map<String, String> map = new LinkedHashMap<>();
+        private String[] questions;
+        private String[] answers;
+        private String lastKey;
+        private int times;
+        private State state;
+
+        public Flashcards() {
+            setDefaultState();
+        }
+
+        public void execute(String input) {
+            switch (state) {
+                case MAIN_MENU: processInput(input); break;
+                case ADD_TERM: addTerm(input); break;
+                case ADD_DEF: addDefinition(input); break;
+                case REMOVING: removeCard(input); break;
+                case IMPORT_CARDS: importCards(input); break;
+                case EXPORT_CARDS: exportCards(input); break;
+                case BEGIN_ASKING: getNumberOfTimes(input); break;
+                case ASK_QUESTION: quiz(input); break;
+                default: setDefaultState();
+            }
+        }
+
+        private void processInput(String input) {
+            switch (input.toLowerCase()) {
+                case "add": addCard(); break;
+                case "remove": removeCardMessage(); break;
+                case "import": importCardsMessage(); break;
+                case "export": exportCardsMessage(); break;
+                case "ask": askHowMany(); break;
+                case "exit": shutdown(); break;
+                default: setDefaultState();
+            }
+        }
+
+        private void addCard() {
+            state = State.ADD_TERM;
+            System.out.println("The card:");
+        }
+
+        private void addTerm(String input) {
+            if (map.containsKey(input)) {
+                System.out.printf("The card \"%s\" already exists.\n", input);
+                setDefaultState();
+            } else {
+                state = State.ADD_DEF;
+                lastKey = input;
+                System.out.println("The definition of the card:");
+            }
+        }
+
+        private void addDefinition(String input) {
+            if (map.containsValue(input)) {
+                System.out.printf("The definition \"%s\" already exists.\n", input);
+            } else {
+                map.put(lastKey, input);
+                System.out.printf("The pair (\"%s\":\"%s\") has been added.\n", lastKey, input);
+            }
+            setDefaultState();
+        }
+
+        private void removeCardMessage() {
+            state = State.REMOVING;
+            System.out.println("The card:");
+        }
+
+        private void removeCard(String input) {
+            if (map.containsKey(input)) {
+                map.remove(input);
+                System.out.println("The card has been removed.");
+            } else {
+                System.out.printf("Can't remove \"%s\": there is no such card.\n", input);
+            }
+            setDefaultState();
+        }
+
+        private void importCardsMessage() {
+            state = State.IMPORT_CARDS;
+            System.out.println("File name:");
+        }
+
+        private void importCards(String input) {
+            File file = new File(input);
+            try (Scanner scan = new Scanner(file)) {
+                int count = 0;
+                while (scan.hasNext()) {
+                    String[] strings = scan.nextLine().split("/");
+                    map.put(strings[0], strings[1]);
+                    count++;
+                }
+                System.out.printf("%d cards have been loaded.\n", count);
+            } catch (IOException e) {
+                System.out.println("File not found.");
+            } finally {
+                setDefaultState();
+            }
+        }
+
+        private void exportCardsMessage() {
+            state = State.EXPORT_CARDS;
+            System.out.println("File name:");
+        }
+
+        private void exportCards(String input) {
+            File file = new File(input);
+            try (PrintWriter writer = new PrintWriter(file)) {
+                map.forEach((k, v) -> writer.println(k + "/" + v));
+                System.out.printf("%d cards have been saved.", map.size());
+            } catch (IOException e) {
+                System.out.println("Something went wrong");
+            } finally {
+                setDefaultState();
+            }
+        }
+
+        private void askHowMany() {
+            state = State.BEGIN_ASKING;
+            System.out.println("How many times to ask?");
+        }
+
+
+        private void getNumberOfTimes(String input) {
+            try {
+                times = Integer.parseInt(input);
+                prepareQuiz();
+            } catch (NumberFormatException e) {
+                System.out.println("\nYou must enter a number, please try again:");
+            }
+
+        }
+
+        private void prepareQuiz() {
+            questions = new String[times];
+            answers = new String[times];
+            int len = times;
+
+            while (times > 0) {
+                for (Map.Entry<String, String> e : map.entrySet()) {
+                    if (times-- > 0) {
+                        questions[len - times - 1] = e.getKey();
+                        answers[len - times - 1] = e.getValue();
+                    } else {
+                        break;
+                    }
+                }
+            }
+            times = len;
+            state = State.ASK_QUESTION;
+            askQuestion();
+        }
+
+        private void askQuestion() {
+            if (times-- > 0) {
+                System.out.printf("\nPrint the definition of \"%s\":\n", questions[questions.length - times - 1]);
+            } else {
+                setDefaultState();
+            }
+        }
+
+        private void quiz(String input) {
+            if (times >= 0) {
+                if (answers[answers.length - times - 1].equals(input)) {
+                    System.out.println("Correct answer.");
+                } else if (map.containsValue(input)) {
+                    String key = map.entrySet().stream().filter(f -> f.getValue().equals(input)).map(Map.Entry::getKey)
+                            .collect(Collectors.joining());
+                    System.out.printf("Wrong answer. The correct one is \"%s\", you've just written the definition of " +
+                            "\"%s\".\n", answers[answers.length - times - 1], key);
+                } else {
+                    System.out.printf("Wrong answer. The correct one is \"%s\".\n", answers[answers.length - times - 1]);
+                }
+                askQuestion();
+            } else {
+                setDefaultState();
+            }
+        }
+
+        private void shutdown() {
+            state = State.EXIT;
+            System.out.println("Goodbye!");
+        }
+
+        public State getState() {
+            return state;
+        }
+
+        private void setDefaultState() {
+            state = State.MAIN_MENU;
+            System.out.println("\nInput the action (add, remove, import, export, ask, exit):");
+        }
+
+    }
+  learner_created: true
+- name: testLog.txt
+  visible: true
+  learner_created: true
+- name: capitals.txt
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/projects/44/stages/237/implement
+status: Solved
+record: 6

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class FlashcardsTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class FlashcardsTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; FlashcardsTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.232s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">start</td>
+<td class="success">0.232s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>?[1;31m
+Start test 1?[0m
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; export
+File name:
+&gt; capitals.txt
+0 cards have been saved.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; export
+File name:
+&gt; capitalsNew.txt
+0 cards have been saved.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; exit
+Goodbye!
+?[1;31m
+Start test 2?[0m
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; add
+The card:
+&gt; France
+The definition of the card:
+&gt; Paris
+The pair (&quot;France&quot;:&quot;Paris&quot;) has been added.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; add
+The card:
+&gt; Russia
+The definition of the card:
+&gt; Moscow
+The pair (&quot;Russia&quot;:&quot;Moscow&quot;) has been added.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; ask
+How many times to ask?
+&gt; 3
+
+Print the definition of &quot;France&quot;:
+&gt; France
+Wrong answer. The correct one is &quot;Paris&quot;.
+
+Print the definition of &quot;Russia&quot;:
+&gt; ??
+Wrong answer. The correct one is &quot;Moscow&quot;.
+
+Print the definition of &quot;France&quot;:
+&gt; 
+Wrong answer. The correct one is &quot;Paris&quot;.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; exit
+Goodbye!
+2 cards have been saved.
+?[1;31m
+Start test 3?[0m
+2 cards have been loaded.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; add
+The card:
+&gt; Japan
+The definition of the card:
+&gt; Tokyo
+The pair (&quot;Japan&quot;:&quot;Tokyo&quot;) has been added.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; ask
+How many times to ask?
+&gt; 3
+
+Print the definition of &quot;France&quot;:
+&gt; Moscow
+Wrong answer. The correct one is &quot;Paris&quot;, you've just written the definition of &quot;Russia&quot;.
+
+Print the definition of &quot;Russia&quot;:
+&gt; Paris
+Wrong answer. The correct one is &quot;Moscow&quot;, you've just written the definition of &quot;France&quot;.
+
+Print the definition of &quot;Japan&quot;:
+&gt; Tokyo
+Correct answer.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; exit
+Goodbye!
+3 cards have been saved.
+?[1;31m
+Start test 4?[0m
+3 cards have been loaded.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; ask
+How many times to ask?
+&gt; 3
+
+Print the definition of &quot;France&quot;:
+&gt; Moscow
+Wrong answer. The correct one is &quot;Paris&quot;, you've just written the definition of &quot;Russia&quot;.
+
+Print the definition of &quot;Russia&quot;:
+&gt; Paris
+Wrong answer. The correct one is &quot;Moscow&quot;, you've just written the definition of &quot;France&quot;.
+
+Print the definition of &quot;Japan&quot;:
+&gt; Tokyo
+Correct answer.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; remove
+The card:
+&gt; Japan
+The card has been removed.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; exit
+Goodbye!
+2 cards have been saved.
+?[1;31m
+Start test 5?[0m
+2 cards have been loaded.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+&gt; exit
+Goodbye!
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.3.1</a> at Jun 5, 2020, 3:04:06 PM</p>
+</div>
+</div>
+</body>
+</html>
