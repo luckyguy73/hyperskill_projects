@@ -8,7 +8,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter cells: ");
         Game game = new Game(scan.nextLine());
-        game.printBoard();
+        game.go();
     }
 
 }

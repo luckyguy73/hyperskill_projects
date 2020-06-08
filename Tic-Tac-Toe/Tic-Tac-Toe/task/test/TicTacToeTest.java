@@ -5,17 +5,8 @@ import tictactoe.Main;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
-
-
-class Attach {
-    String input;
-    String result;
-
-    Attach(String result) {
-        this.result = result;
-    }
-}
 
 enum FieldState {
     X, O, FREE;
@@ -55,6 +46,10 @@ class TicTacToeField {
         }
     }
 
+    FieldState get(int x, int y) {
+        return field[y - 1][x - 1];
+    }
+
     boolean equalTo(TicTacToeField other) {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -83,27 +78,80 @@ class TicTacToeField {
         return improved;
     }
 
-    boolean differByOne(TicTacToeField other) {
-        boolean haveSingleDifference = false;
-
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                if (field[i][j] != other.field[i][j]) {
-                    if (haveSingleDifference) {
-                        return false;
-                    }
-                    haveSingleDifference = true;
-                }
-            }
-        }
-
-        return haveSingleDifference;
-    }
-
     boolean isCloseTo(TicTacToeField other) {
         return equalTo(other)
             || hasNextAs(other)
             || other.hasNextAs(this);
+    }
+
+    boolean isWinning(FieldState side) {
+        if (side == FieldState.FREE) {
+            return false;
+        }
+
+        if (get(1, 1) == side &&
+            get(1, 2) == side &&
+            get(1, 3) == side) {
+            return true;
+        }
+
+        if (get(2, 1) == side &&
+            get(2, 2) == side &&
+            get(2, 3) == side) {
+            return true;
+        }
+
+        if (get(3, 1) == side &&
+            get(3, 2) == side &&
+            get(3, 3) == side) {
+            return true;
+        }
+
+        if (get(1, 1) == side &&
+            get(2, 1) == side &&
+            get(3, 1) == side) {
+            return true;
+        }
+
+        if (get(1, 2) == side &&
+            get(2, 2) == side &&
+            get(3, 2) == side) {
+            return true;
+        }
+
+        if (get(1, 3) == side &&
+            get(2, 3) == side &&
+            get(3, 3) == side) {
+            return true;
+        }
+
+        if (get(1, 1) == side &&
+            get(2, 2) == side &&
+            get(3, 3) == side) {
+            return true;
+        }
+
+        if (get(1, 3) == side &&
+            get(2, 2) == side &&
+            get(3, 1) == side) {
+            return true;
+        }
+
+        return false;
+    }
+
+    boolean isDraw() {
+        if (isWinning(FieldState.X) || isWinning(FieldState.O)) {
+            return false;
+        }
+        for (int x = 1; x <= 3; x++) {
+            for (int y = 1; y <= 3; y++) {
+                if (get(x, y) == FieldState.FREE) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 
     static TicTacToeField parse(String fieldStr) {
@@ -191,78 +239,106 @@ class TicTacToeField {
 
 }
 
-public class TicTacToeTest extends StageTest<Attach> {
-    public TicTacToeTest() {
+
+class Clue {
+    int x, y;
+    Clue(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+}
+
+public class TicTacToeTest extends StageTest<Clue> {
+    public TicTacToeTest() throws Exception {
         super(Main.class);
     }
 
+    static String[] inputs = new String[] {
+        "1 1", "1 2", "1 3",
+        "2 1", "2 2", "2 3",
+        "3 1", "3 2", "3 3"
+    };
+
+    String iterateCells(String initial) {
+        int index = -1;
+        for (int i = 0; i < inputs.length; i++) {
+            if (initial.equals(inputs[i])) {
+                index = i;
+                break;
+            }
+        }
+        if (index == -1) {
+            return "";
+        }
+        String fullInput = "";
+        for (int i = index; i < index + 9; i++) {
+            fullInput += inputs[i % inputs.length] + "\n";
+        }
+        return fullInput;
+    }
+
     @Override
-    public List<TestCase<Attach>> generate() {
-        List<TestCase<Attach>> tests = List.of(
-            new TestCase<Attach>()
-                .setInput("XXXOO  O ")
-                .setAttach(new Attach("X wins")),
+    public List<TestCase<Clue>> generate() {
 
-            new TestCase<Attach>()
-                .setInput("XOXOXOXXO")
-                .setAttach(new Attach("X wins")),
+        List<TestCase<Clue>> tests = new ArrayList<>();
 
-            new TestCase<Attach>()
-                .setInput("XOOOXOXXO")
-                .setAttach(new Attach("O wins")),
+        int i = 0;
+        for (String input : inputs) {
 
-            new TestCase<Attach>()
-                .setInput("XOXOOXXXO")
-                .setAttach(new Attach("Draw")),
+            Random random = new Random();
+            String randomInput = "";
+            for (int j = 0; j < 10; j++) {
+                int randX = random.nextInt(4) + 1;
+                int randY = random.nextInt(4) + 1;
+                randomInput += randX + " " + randY + "\n";
+            }
 
-            new TestCase<Attach>()
-                .setInput("XO OOX X ")
-                .setAttach(new Attach("Game not finished")),
+            String fullMoveInput = randomInput
+                + iterateCells(input) + iterateCells(input);
 
-            new TestCase<Attach>()
-                .setInput("XO XO XOX")
-                .setAttach(new Attach("Impossible")),
+            String[] strNums = input.split(" ");
+            int x = Integer.parseInt(strNums[0]);
+            int y = Integer.parseInt(strNums[1]);
 
-            new TestCase<Attach>()
-                .setInput(" O X  X X")
-                .setAttach(new Attach("Impossible")),
+            if (i % 2 == 1) {
+                // mix with incorrect data
+                fullMoveInput = "4 " + i + "\n" + fullMoveInput;
+            }
 
-            new TestCase<Attach>()
-                .setInput(" OOOO X X")
-                .setAttach(new Attach( "Impossible"))
-        );
+            String fullGameInput = "";
+            for (int j = 0; j < 9; j++) {
+                fullGameInput += fullMoveInput;
+            }
 
-        for (TestCase<Attach> test : tests) {
-            test.setInput(test.getInput().replace(" ", "_"));
-            test.getAttach().input = test.getInput();
+            tests.add(new TestCase<Clue>()
+                .setInput(fullGameInput)
+                .setAttach(new Clue(x, y)));
+
+            i++;
         }
 
         return tests;
     }
 
     @Override
-    public CheckResult check(String reply, Attach clue) {
+    public CheckResult check(String reply, Clue clue) {
 
         List<TicTacToeField> fields = TicTacToeField.parseAll(reply);
 
         if (fields.size() == 0) {
-            return new CheckResult(false,
-                "Can't parse the field! " +
-                    "Check if you output a field in format like in the example.");
+            return new CheckResult(false, "No fields found");
         }
 
-        if (fields.size() > 1) {
-            return new CheckResult(false,
-                "There are more than one field in the output! " +
-                    "You should output a single field.");
-        }
+        for (int i = 1; i < fields.size(); i++) {
+            TicTacToeField curr = fields.get(i - 1);
+            TicTacToeField next = fields.get(i);
 
-        TicTacToeField userField = fields.get(0);
-        TicTacToeField inputField = new TicTacToeField(clue.input);
-
-        if (!userField.equalTo(inputField)) {
-            return new CheckResult(false,
-                "Your field doesn't match expected field");
+            if (!(curr.equalTo(next) || curr.hasNextAs(next))) {
+                return new CheckResult(false,
+                    "For two fields following each " +
+                        "other one is not a continuation " +
+                        "of the other (they differ more than in two places).");
+            }
         }
 
         List<String> lines = reply
@@ -274,26 +350,68 @@ public class TicTacToeTest extends StageTest<Attach> {
 
         String lastLine = lines.get(lines.size() - 1);
 
-        if (! (lastLine.equals("X wins")
-            || lastLine.equals("O wins")
-            || lastLine.equals("Draw")
-            || lastLine.equals("Game not finished")
-            || lastLine.equals("Impossible")
+        if (! (lastLine.contains("X wins")
+            || lastLine.contains("O wins")
+            || lastLine.contains("Draw")
         )) {
             return new CheckResult(false,
-                "Can't parse result, " +
-                    "should be one of the outcomes mentioned in description. " +
+                "Can't parse final result, " +
+                    "should contain \"Draw\", \"X wins\" or \"O wins\".\n" +
                     "Your last line: \"" + lastLine + "\"");
         }
 
-        if (!lastLine.equals(clue.result)) {
+        if (lastLine.contains("X wins") && lastLine.contains("O wins")) {
             return new CheckResult(false,
-                "The result is incorrect. " +
-                    "Should be: \"" + clue.result + "\", " +
-                    "found: \"" + lastLine + "\". " +
-                    "Check if your program works correctly in test examples in description.");
+                "Your final result contains \"X wins\" and \"O wins\" " +
+                    "at the same time. This is impossible.\n" +
+                    "Your last line: \"" + lastLine + "\"");
         }
 
-        return CheckResult.correct();
+        if (lastLine.contains("X wins") && lastLine.contains("Draw")) {
+            return new CheckResult(false,
+                "Your final result contains \"X wins\" and \"Draw\" " +
+                    "at the same time. This is impossible.\n" +
+                    "Your last line: \"" + lastLine + "\"");
+        }
+
+        if (lastLine.contains("O wins") && lastLine.contains("Draw")) {
+            return new CheckResult(false,
+                "Your final result contains \"O wins\" and \"Draw\" " +
+                    "at the same time. This is impossible.\n" +
+                    "Your last line: \"" + lastLine + "\"");
+        }
+
+        TicTacToeField lastField = fields.get(fields.size() - 1);
+
+        if (lastField.isWinning(FieldState.X) && !lastLine.contains("X wins")) {
+            return new CheckResult(false,
+                "Your last field shows that X wins, " +
+                    "and your last line should contain \"X wins\".\n" +
+                    "Your last line: \"" + lastLine + "\"");
+        }
+
+        if (lastField.isWinning(FieldState.O) && !lastLine.contains("O wins")) {
+            return new CheckResult(false,
+                "Your last field shows that O wins, " +
+                    "and your last line should contain \"O wins\".\n" +
+                    "Your last line: \"" + lastLine + "\"");
+        }
+
+        if (lastField.isDraw() && !lastLine.contains("Draw")) {
+            return new CheckResult(false,
+                "Your last field shows that there is a draw, " +
+                    "and your last line should contain \"Draw\".\n" +
+                    "Your last line: \"" + lastLine + "\"");
+        }
+
+        if (lastField.isWinning(FieldState.X) ||
+            lastField.isWinning(FieldState.O) ||
+            lastField.isDraw()) {
+            return CheckResult.correct();
+        }
+
+        return CheckResult.wrong(
+            "Your last field contains unfinished game, the game should be finished!"
+        );
     }
 }
