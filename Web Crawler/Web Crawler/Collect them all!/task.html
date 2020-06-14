@@ -1,0 +1,39 @@
+<h2 style="text-align: center;">Description</h2>
+
+<p>Continue developing the crawler: let's collect all the links to other web pages on the page and their titles.</p>
+
+<p>As you may know, links in HTML are tags like <code class="java">&lt;a target="_blank" href="LINK"&gt;</code>, where <code class="java">LINK</code> is obviously an URL and quotes can be single (<code class="java">'</code>) or double (<code class="java">"</code>).</p>
+
+<p>The link can be presented in many ways:</p>
+
+<ul>
+	<li>An absolute link like <code class="java">https://www.wikipedia.org/index.html</code>.</li>
+	<li>A relative link like <code class="java">page.html</code>. It doesn't contain slashes. To get an absolute link you should cut the original link to the last slash and add this relative link: <code class="java">https://www.wikipedia.org/index.html</code>=&gt; <code class="java">page.html</code> = <code class="java">https://www.wikipedia.org/page.html</code>.</li>
+	<li>A link without protocol like <code class="java">//en.wikipedia.org/</code> or <code class="java">en.wikipedia.org/</code>. Here you need just to add protocol of original page: <code class="java">http</code> or <code class="java">https</code>.</li>
+</ul>
+
+<p>Don't forget that there are not only links to web pages. Also, there are images, music, video, and so on. Handle these cases: update page download code. <code class="java">URL</code>'s <code class="java">openStream()</code> method is a shorthand for <code class="java">openConnection().getInputStream()</code>. So receive an object <code class="java">URLConnection</code> by <code class="java">openConnection()</code> and check its <code class="java">getContentType()</code>. It must be equal to <code class="java">"text/html"</code>. Then use <code class="java">.getInputStream()</code> to pass the connection to the <code class="java">InputStreamReader</code>.</p>
+
+<p>Then display a <code class="java">JTable</code> with this data: the first column is the link, the second one is its title.</p>
+
+<p>Your first row in the table should contain the initial page and its title!</p>
+
+<p>Put the <code class="java">JTable</code> in a <code class="java">JScrollPane</code> so the <code class="java">JTable</code> header will be shown.</p>
+
+<h2 style="text-align: center;">Testing requirements</h2>
+
+<p>For the testing reasons, you need to set the name of each component using the method <code class="java">component.setName(String name)</code>.<br>
+On this stage, please provide the following components:</p>
+
+<ul>
+	<li><code class="java">JTextField</code> "UrlTextField".</li>
+	<li><code class="java">JButton</code> "RunButton".</li>
+	<li><code class="java">JLabel</code> "TitleLabel".</li>
+	<li><code class="java">JTable</code> "TitlesTable".</li>
+</ul>
+
+<h2 style="text-align: center;">Example</h2>
+
+<p>Below there is the example of how your new window might look:</p>
+
+<p style="text-align: center;"><img alt="" src="https://ucarecdn.com/11458043-4aa4-462f-a782-a03dfef00c39/"></p>

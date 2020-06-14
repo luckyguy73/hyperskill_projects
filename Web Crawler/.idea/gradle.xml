@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/A lambda expression with seven arguments" />
+            <option value="$PROJECT_DIR$/Problems/A long process" />
+            <option value="$PROJECT_DIR$/Problems/An anonymous class with a single method" />
+            <option value="$PROJECT_DIR$/Problems/An anonymous class with three methods" />
+            <option value="$PROJECT_DIR$/Problems/Calculator" />
+            <option value="$PROJECT_DIR$/Problems/Check IP address" />
+            <option value="$PROJECT_DIR$/Problems/Check the clock time" />
+            <option value="$PROJECT_DIR$/Problems/Extracting big numbers from a text" />
+            <option value="$PROJECT_DIR$/Problems/Extracting words from a text" />
+            <option value="$PROJECT_DIR$/Problems/Find a word with a given length" />
+            <option value="$PROJECT_DIR$/Problems/Find all passwords" />
+            <option value="$PROJECT_DIR$/Problems/Getting distinct strings" />
+            <option value="$PROJECT_DIR$/Problems/Illegal identifiers" />
+            <option value="$PROJECT_DIR$/Problems/In the middle of a word" />
+            <option value="$PROJECT_DIR$/Problems/IntBinaryOperation" />
+            <option value="$PROJECT_DIR$/Problems/Iterations" />
+            <option value="$PROJECT_DIR$/Problems/Max of two integers" />
+            <option value="$PROJECT_DIR$/Problems/Number parsing" />
+            <option value="$PROJECT_DIR$/Problems/Output names of the methods" />
+            <option value="$PROJECT_DIR$/Problems/Returning from a method" />
+            <option value="$PROJECT_DIR$/Problems/Returning values from an anonymous class" />
+            <option value="$PROJECT_DIR$/Problems/Safe password" />
+            <option value="$PROJECT_DIR$/Problems/Shape hierarchy" />
+            <option value="$PROJECT_DIR$/Problems/Start or end of a word" />
+            <option value="$PROJECT_DIR$/Problems/String reverser" />
+            <option value="$PROJECT_DIR$/Problems/Users and WebSites" />
+            <option value="$PROJECT_DIR$/Problems/Vehicle registration number" />
+            <option value="$PROJECT_DIR$/Web Crawler/task" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

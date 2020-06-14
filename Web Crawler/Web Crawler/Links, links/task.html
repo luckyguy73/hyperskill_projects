@@ -1,0 +1,35 @@
+<h2 style="text-align: center;">Description</h2>
+
+<p>Now let's download a source code of the given web page.</p>
+
+<p>Add two components to the frame: a <code class="language-java">JTextField</code> for the target site URL and a <code class="language-java">JButton</code> launching download.</p>
+
+<p>And how to download a web page?</p>
+
+<p>There are standard Java classes.</p>
+
+<p>Here is code that downloads a web page text:</p>
+
+<pre><code class="language-java">final String url = /* Get url from JTextField */;
+try (InputStream inputStream = new BufferedInputStream(new URL(url).openStream())) {
+    String siteText = new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
+}</code></pre>
+
+<p>Notice, that the code should be placed into <code class="language-java">try-with-resources</code> construction so inputStream will be closed automatically.</p>
+
+<h2 style="text-align: center;">Testing requirements</h2>
+
+<p>For the testing reasons, you need to set the name of each component using the method <code class="language-java">component.setName(String name)</code>.<br>
+On this stage, please provide the following components:</p>
+
+<ul>
+	<li><code class="language-java">JTextField</code> "UrlTextField".</li>
+	<li><code class="language-java">JButton</code> "RunButton".</li>
+	<li><code class="language-java">JTextArea</code> "HtmlTextArea".</li>
+</ul>
+
+<h2 style="text-align: center;">Example</h2>
+
+<p>Below there is the example of how your window might look:</p>
+
+<p style="text-align: center;"><img alt="" src="https://ucarecdn.com/2774d6df-8485-4675-b5e1-112d6a650929/"></p>

@@ -1,0 +1,20 @@
+<b>Iterations</b> <a class=right href="https://hyperskill.org/learn/step/2551">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>There are two static methods:</p> 
+  <pre><code class="language-java">1) static void performIterationsWithCallback(int numberOfIterations, LoopCallback callback)</code></pre> 
+  <pre><code class="language-java">2) static void startIterations(int numberOfIterations)</code></pre> 
+  <p>The first method takes a number of iterations for a loop and a callback that is called on each iteration. The second method takes a number of iterations, creates a callback and passes them to the first method.</p> 
+  <p>The <strong><code class="language-java">LoopCallback</code></strong> interface has a single method:</p> 
+  <pre><code class="language-java">interface LoopCallback {
+&nbsp; &nbsp; 
+&nbsp; &nbsp; void onNewIteration(int iteration);
+}</code></pre> 
+  <p>You should implement the second method. It must create an instance of an anonymous class that implements <strong><code class="language-java">LoopCallback</code></strong> and passes it to the first method. The overridden method <strong><code class="language-java">onNewIteration</code></strong> should output the number of iteration to the standard output on a separate line. For example:</p> 
+  <pre><code class="language-java">Iteration: 0</code></pre> 
+  <p>Use the provided code template.</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/3564">Show topic summary</a>

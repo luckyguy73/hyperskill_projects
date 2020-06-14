@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Seven {
+
+        public static MultipleArgumentsLambda.SeptenaryStringFunction fun = //write your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2369
+status: Solved
+record: -1

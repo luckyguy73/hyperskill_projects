@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Web_Crawler-task" external.linked.project.path="$MODULE_DIR$/../../../../Web Crawler/task" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Web_Crawler" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Web Crawler/task">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Web Crawler/task/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Web Crawler/task/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Web Crawler/task/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
