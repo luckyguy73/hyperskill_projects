@@ -10,6 +10,24 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/Compression algorithm" />
+            <option value="$PROJECT_DIR$/Problems/Convert a date" />
+            <option value="$PROJECT_DIR$/Problems/Create an euphonious word" />
+            <option value="$PROJECT_DIR$/Problems/Cutting out the middle of a string" />
+            <option value="$PROJECT_DIR$/Problems/Double characters" />
+            <option value="$PROJECT_DIR$/Problems/Find the first occurrence of the word &quot;the&quot;" />
+            <option value="$PROJECT_DIR$/Problems/Generating passwords" />
+            <option value="$PROJECT_DIR$/Problems/Heron's formula" />
+            <option value="$PROJECT_DIR$/Problems/Move the first N characters" />
+            <option value="$PROJECT_DIR$/Problems/Number of occurrences" />
+            <option value="$PROJECT_DIR$/Problems/Palindrome" />
+            <option value="$PROJECT_DIR$/Problems/Parse url" />
+            <option value="$PROJECT_DIR$/Problems/Piece of alphabet" />
+            <option value="$PROJECT_DIR$/Problems/Pow" />
+            <option value="$PROJECT_DIR$/Problems/Quadratic equation" />
+            <option value="$PROJECT_DIR$/Problems/The longest word" />
+            <option value="$PROJECT_DIR$/Problems/The lucky ticket" />
+            <option value="$PROJECT_DIR$/Problems/The percentage of G and C characters" />
             <option value="$PROJECT_DIR$/Readability Score/task" />
             <option value="$PROJECT_DIR$/util" />
           </set>

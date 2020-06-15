@@ -343,6 +343,37 @@ files:
         }
     }
   learner_created: false
+- name: src/readability/Main.java
+  visible: true
+  text: |
+    package readability;
+
+    import java.io.*;
+    import java.nio.file.*;
+
+    public class Main {
+
+        public static void main(String[] args) throws IOException {
+            final String[] AGE_RANGE = {"5-6", "6-7", "7-9", "9-10", "10-11", "11-12", "12-13",
+                    "13-14", "14-15", "15-16", "16-17", "17-18", "18-24", "24+"};
+            String string = new String(Files.readAllBytes(Path.of(args[0])));
+
+            int words = string.split("\\s+").length;
+            long characters = string.chars().filter(c -> c != ' ' && c != '\n').count();
+            int sentences = string.split("[?.!]").length;
+            double score = 4.71 * characters / words + 0.5 * words / sentences - 21.43;
+
+            System.out.println("The text is:");
+            System.out.printf("%s\n\n", string);
+            System.out.println("Words: " + words);
+            System.out.println("Sentences: " + sentences);
+            System.out.println("Characters: " + characters);
+            System.out.printf("The score is: %.2f\n", score);
+            System.out.printf("This text should be understood by %s year olds.\n", AGE_RANGE[(int) score]);
+        }
+
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/39/stages/208/implement
-status: Unchecked
+status: Solved
 record: -1

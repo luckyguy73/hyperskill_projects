@@ -188,6 +188,27 @@ files:
         }
     }
   learner_created: false
+- name: src/readability/Main.java
+  visible: true
+  text: |
+    package readability;
+
+    import java.util.Arrays;
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            String[] text = new Scanner(System.in).nextLine().split("[?.!]");
+            int sum = Arrays.stream(text).map(m -> m.split("\\s+").length).mapToInt(i -> i).sum();
+            System.out.println(sum / text.length > 10 ? "HARD" : "EASY");
+        }
+
+    }
+  learner_created: true
+- name: src/readability/in.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/39/stages/207/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 3
