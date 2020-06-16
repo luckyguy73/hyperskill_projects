@@ -145,6 +145,27 @@ files:
         }
     }
   learner_created: false
+- name: src/converter/Main.java
+  visible: true
+  text: |
+    package converter;
+
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner s = new Scanner(System.in);
+            int radix = s.nextInt();
+            String num = s.next();
+            int target = s.nextInt();
+            int source = radix == 1 ? num.length() : Integer.parseInt(num, radix);
+            String answer = target == 1 ? ("" + target).repeat(Integer.parseInt(num)) : Integer.toString(source, target);
+            System.out.println(answer);
+        }
+
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/41/stages/218/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 5

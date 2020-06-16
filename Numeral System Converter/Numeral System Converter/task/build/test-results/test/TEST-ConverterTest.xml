@@ -1,10 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ConverterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-15T22:00:13" hostname="hulk-smash.local" time="0.056">
+<testsuite name="ConverterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-16T04:18:27" hostname="hulk-smash.local" time="0.276">
   <properties/>
-  <testcase name="start" classname="ConverterTest" time="0.056"/>
+  <testcase name="start" classname="ConverterTest" time="0.276"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-10 = 0b1010
+> a b
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 2?[0m
+> 11
+> abc
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 3?[0m
+> 11
+> 1
+> das
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 4?[0m
+> 0
+> 1
+> das
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 5?[0m
+> 37
+> 1
+> das
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 6?[0m
+> 36
+> 1
+> 0
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 7?[0m
+> 36
+> 1
+> 37
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 8?[0m
+> c
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 9?[0m
+> 12
+> bc
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 10?[0m
+> 12
+> 1
+> hf
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 11?[0m
+> 0
+> 2
+> hf
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 12?[0m
+> 37
+> 2
+> hf
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 13?[0m
+> 14
+> 2
+> -1
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 14?[0m
+> 14
+> 2
+> 38
+Error: Radix should be in range 1 - 36
+?[1;31m
+Start test 15?[0m
+> 10
+> 0.234
+> 7
+0.14315
+?[1;31m
+Start test 16?[0m
+> 10
+> 10.234
+> 7
+13.14315
+?[1;31m
+Start test 17?[0m
+> 6
+> 2.555
+> 1
+11.?????
+?[1;31m
+Start test 18?[0m
+> 35
+> af.xy
+> 17
+148.g88a8
+?[1;31m
+Start test 19?[0m
+> 10
+> 11
+> 2
+1011
+?[1;31m
+Start test 20?[0m
+> 16
+> aaaaa.0
+> 24
+22df2.00000
+?[1;31m
+Start test 21?[0m
+> 16
+> 0.cdefb
+> 24
+0.j78da
+?[1;31m
+Start test 22?[0m
+> 16
+> aaaaa.cdefb
+> 24
+22df2.j78da
+?[1;31m
+Start test 23?[0m
+> 10
+> 0.2340
+> 7
+0.14315
+?[1;31m
+Start test 24?[0m
+> 10
+> 10.2340
+> 7
+13.14315
+?[1;31m
+Start test 25?[0m
+> 6
+> 2.5550
+> 1
+11.?????
+?[1;31m
+Start test 26?[0m
+> 35
+> af.xy0
+> 17
+148.g88a8
+?[1;31m
+Start test 27?[0m
+> 10
+> 12
+> 2
+1100
+?[1;31m
+Start test 28?[0m
+> 16
+> aaaaa.00
+> 24
+22df2.00000
+?[1;31m
+Start test 29?[0m
+> 16
+> 0.cdefb0
+> 24
+0.j78da
+?[1;31m
+Start test 30?[0m
+> 16
+> aaaaa.cdefb0
+> 24
+22df2.j78da
+?[1;31m
+Start test 31?[0m
+> 10
+> 11
+> 2
+1011
+?[1;31m
+Start test 32?[0m
+> 1
+> 11111
+> 10
+5
+?[1;31m
+Start test 33?[0m
+> 10
+> 1000
+> 36
+rs
+?[1;31m
+Start test 34?[0m
+> 21
+> 4242
+> 6
+451552
+?[1;31m
+Start test 35?[0m
+> 7
+> 12
+> 11
+9
+?[1;31m
+Start test 36?[0m
+> 5
+> 300
+> 10
+75
+?[1;31m
+Start test 37?[0m
+> 1
+> 11111
+> 5
+10
+?[1;31m
+Start test 38?[0m
+> 10
+> 4
+> 1
+1111
+?[1;31m
+Start test 39?[0m
+> 10
+> 12
+> 2
+1100
+?[1;31m
+Start test 40?[0m
+> 1
+> 1111111
+> 10
+7
+?[1;31m
+Start test 41?[0m
+> 10
+> 1001
+> 36
+rt
+?[1;31m
+Start test 42?[0m
+> 21
+> 4243
+> 6
+451553
+?[1;31m
+Start test 43?[0m
+> 7
+> 13
+> 11
+a
+?[1;31m
+Start test 44?[0m
+> 5
+> 301
+> 10
+76
+?[1;31m
+Start test 45?[0m
+> 1
+> 111111
+> 5
+11
+?[1;31m
+Start test 46?[0m
+> 10
+> 5
+> 1
+11111
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

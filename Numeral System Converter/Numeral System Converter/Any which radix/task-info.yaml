@@ -108,6 +108,31 @@ files:
         }
     }
   learner_created: false
+- name: src/converter/Main.java
+  visible: true
+  text: |
+    package converter;
+
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner s = new Scanner(System.in);
+            long num = s.nextLong();
+            int radix = s.nextInt();
+            String ans = "";
+            switch (radix) {
+                case 2: ans = "0b" + Long.toBinaryString(num); break;
+                case 8: ans = "0" + Long.toOctalString(num); break;
+                case 16: ans = "0x" + Long.toHexString(num); break;
+                default: System.out.println("Must be binary, octal, or hex");
+            }
+            System.out.println(ans);
+        }
+
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/41/stages/217/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 4

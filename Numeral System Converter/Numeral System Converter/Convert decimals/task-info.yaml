@@ -122,6 +122,22 @@ files:
         }
     }
   learner_created: false
+- name: src/converter/Main.java
+  visible: true
+  text: |
+    package converter;
+
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            String oct = Integer.toOctalString(new Scanner(System.in).nextInt());
+            System.out.println(oct.charAt(oct.length() - 1));
+        }
+
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/41/stages/216/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 3
