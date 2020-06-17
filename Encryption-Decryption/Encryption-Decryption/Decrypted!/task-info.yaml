@@ -52,6 +52,29 @@ files:
         }
     }
   learner_created: false
+- name: src/encryptdecrypt/Main.java
+  visible: true
+  text: |
+    package encryptdecrypt;
+
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner s = new Scanner(System.in);
+            char[] cypher = s.nextLine().toCharArray();
+            int key = s.nextInt();
+            for (int i = 0; i < cypher.length; ++i) {
+                if (Character.isAlphabetic(cypher[i])) {
+                    cypher[i] = (char) (((cypher[i] - 'a' + key) % 26) + 'a');
+                }
+            }
+            System.out.println(cypher);
+        }
+
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/46/stages/247/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 3

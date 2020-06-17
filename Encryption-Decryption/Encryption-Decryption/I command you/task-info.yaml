@@ -75,6 +75,33 @@ files:
         }
     }
   learner_created: false
+- name: src/encryptdecrypt/Main.java
+  visible: true
+  text: |
+    package encryptdecrypt;
+
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner scan = new Scanner(System.in);
+            String type = scan.nextLine();
+            char[] cypher = scan.nextLine().toCharArray();
+            int key = scan.nextInt();
+            executeOperation(cypher, key, type.equals("enc"));
+        }
+
+        private static void executeOperation(char[] cypher, int key, boolean encrypt) {
+            int sign = encrypt ? 1 : -1;
+            for (int i = 0; i < cypher.length; ++i) {
+                cypher[i] = (char) (cypher[i] + key * sign);
+            }
+            System.out.println(cypher);
+        }
+
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/46/stages/248/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 4

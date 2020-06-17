@@ -110,6 +110,36 @@ files:
         }
     }
   learner_created: false
+- name: src/encryptdecrypt/Main.java
+  visible: true
+  text: |
+    package encryptdecrypt;
+
+    import java.util.*;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            List<String> list = Arrays.asList(args);
+            String type = list.contains("-mode") ? list.get(list.indexOf("-mode") + 1) : "enc";
+            char[] cypher = list.contains("-data") ? list.get(list.indexOf("-data") + 1).toCharArray() : new char[]{' '};
+            String key = list.contains("-key") ? list.get(list.indexOf("-key") + 1) : "0";
+            executeOperation(cypher, Integer.parseInt(key), type.equals("enc"));
+        }
+
+        private static void executeOperation(char[] cypher, int key, boolean encrypt) {
+            int sign = encrypt ? 1 : -1;
+            for (int i = 0; i < cypher.length; ++i) {
+                cypher[i] = (char) (cypher[i] + key * sign);
+            }
+            System.out.println(cypher);
+        }
+
+    }
+  learner_created: true
+- name: output.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/46/stages/249/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 5

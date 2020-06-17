@@ -95,6 +95,26 @@ files:
         }
     }
   learner_created: false
+- name: src/encryptdecrypt/Main.java
+  visible: true
+  text: |
+    package encryptdecrypt;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            String message = "we found a treasure!";
+            char[] encrypted = message.toCharArray();
+            for (int i = 0; i < message.length(); ++i) {
+                if (Character.isAlphabetic(message.charAt(i))) {
+                    encrypted[i] = (char) ('z' - message.charAt(i) + 'a');
+                }
+            }
+            System.out.println(encrypted);
+        }
+
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/46/stages/246/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 2
