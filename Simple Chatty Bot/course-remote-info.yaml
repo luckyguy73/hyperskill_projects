@@ -6,12 +6,16 @@ hyperskill_project:
 stages:
 - id: 165
   step: 5107
+  is_completed: true
 - id: 166
   step: 5108
+  is_completed: true
 - id: 167
   step: 5109
+  is_completed: true
 - id: 168
   step: 5110
+  is_completed: true
 topics:
   0:
   - title: Introduction to Java
@@ -48,13 +52,13 @@ topics:
     theory_id: 3512
   - title: Conditional statement
     theory_id: 3503
+  - title: Ternary operator
+    theory_id: 3506
   - title: The for-loop
     theory_id: 3505
   3:
   - title: Units of information
     theory_id: 6865
-  - title: Binary numbers
-    theory_id: 5544
   - title: Sizes and ranges
     theory_id: 3532
   - title: Type casting

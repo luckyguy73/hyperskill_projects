@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">3.438s</div>
+<div class="counter">13.630s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,191 +61,13 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
-</li>
-<li>
-<a href="#tab2">Standard output</a>
-</li>
-<li>
-<a href="#tab3">Standard error</a>
+<a href="#tab1">Standard output</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="start"></a>
-<h3 class="failures">start</h3>
-<span class="code">
-<pre>java.lang.AssertionError: Fatal error in test #12, please send the report to support@hyperskill.org
-
-OS Mac OS X
-Java 11.0.7
-Vendor JetBrains s.r.o.
-Testing library version 6
-
-Cannot be cloned: nothing
-Cannot be reset: nothing
-Cannot deserialize: nothing
-Cannot serialize: nothing
-Circular links: nothing
-
-java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:372)
-	at java.base/java.util.ArrayList.get(ArrayList.java:458)
-	at crawler.WebCrawlerTableModel.getValueAt(WebCrawlerTableModel.java:30)
-	at crawler.WebCrawlerTableModel.getValueAt(WebCrawlerTableModel.java:6)
-	at java.desktop/javax.swing.JTable.getValueAt(JTable.java:2706)
-	at java.desktop/javax.swing.JTable.prepareRenderer(JTable.java:5721)
-	at org.assertj.swing.driver.BasicJTableCellReader.cellRendererIn(BasicJTableCellReader.java:177)
-	at org.assertj.swing.driver.BasicJTableCellReader.valueAt(BasicJTableCellReader.java:89)
-	at org.assertj.swing.driver.JTableContentsQuery$1.executeInEDT(JTableContentsQuery.java:42)
-	at org.assertj.swing.driver.JTableContentsQuery$1.executeInEDT(JTableContentsQuery.java:34)
-	at org.assertj.swing.edt.GuiQuery.run(GuiQuery.java:42)
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-	at org.assertj.swing.edt.GuiActionRunner.execute(GuiActionRunner.java:98)
-	at org.assertj.swing.driver.JTableContentsQuery.tableContents(JTableContentsQuery.java:34)
-	at org.assertj.swing.driver.JTableDriver.contents(JTableDriver.java:565)
-	at org.assertj.swing.fixture.JTableFixture.contents(JTableFixture.java:223)
-	at common.WebCrawlerStage4TestKt$stage4Tests$1.invoke(WebCrawlerStage4Test.kt:91)
-	at common.WebCrawlerStage4TestKt$stage4Tests$1.invoke(WebCrawlerStage4Test.kt)
-	at common.WebCrawlerUtilKt.checkWebCrawlerTest(WebCrawlerUtil.kt:24)
-	at common.WebCrawlerStage4Test.check(WebCrawlerStage4Test.kt:38)
-	at common.WebCrawlerStage4Test.check(WebCrawlerStage4Test.kt:14)
-	at org.hyperskill.hstest.v6.stage.BaseStageTest.checkSolution(BaseStageTest.java:260)
-	at org.hyperskill.hstest.v6.stage.BaseStageTest.start(BaseStageTest.java:153)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-
-
-Please find below the output of your program during this failed test.
-
----
-
-URL: http://localhost:25555/exampleDotCom
-added 2 urls from http://localhost:25555/exampleDotCom
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.hyperskill.hstest.v6.stage.BaseStageTest.start(BaseStageTest.java:172)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -256,13 +78,13 @@ added 2 urls from http://localhost:25555/exampleDotCom
 </tr>
 </thead>
 <tr>
-<td class="failures">start</td>
-<td class="failures">3.438s</td>
-<td class="failures">failed</td>
+<td class="success">start</td>
+<td class="success">13.630s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
 <pre>?[1;31m
@@ -287,219 +109,22 @@ Start test 9?[0m
 Start test 10?[0m
 ?[1;31m
 Start test 11?[0m
-URL: http://localhost:25555/exampleDotCom
-added 2 urls from http://localhost:25555/exampleDotCom
-URL: http://localhost:25555/circular1
-added 2 urls from http://localhost:25555/circular1
-URL: http://localhost:25555/circular2
-added 2 urls from http://localhost:25555/circular2
-URL: http://localhost:25555/circular3
-added 3 urls from http://localhost:25555/circular3
 ?[1;31m
 Start test 12?[0m
-URL: http://localhost:25555/exampleDotCom
-added 2 urls from http://localhost:25555/exampleDotCom
-</pre>
-</span>
-</div>
-<div id="tab3" class="tab">
-<h2>Standard error</h2>
-<span class="code">
-<pre>Exception in thread &quot;AWT-EventQueue-0&quot; java.lang.NullPointerException
-	at crawler.WebCrawler.addTitles(WebCrawler.java:158)
-	at crawler.WebCrawler.buttonAction(WebCrawler.java:48)
-	at crawler.WebCrawler.lambda$setFieldSettings$0(WebCrawler.java:35)
-	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
-	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
-	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
-	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
-	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:270)
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6650)
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3345)
-	at java.desktop/java.awt.Component.processEvent(Component.java:6415)
-	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5025)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4857)
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4857)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-Exception in thread &quot;AWT-EventQueue-0&quot; java.lang.NullPointerException
-	at crawler.WebCrawler.addTitles(WebCrawler.java:158)
-	at crawler.WebCrawler.buttonAction(WebCrawler.java:48)
-	at crawler.WebCrawler.lambda$setFieldSettings$0(WebCrawler.java:35)
-	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
-	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
-	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
-	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
-	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:270)
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6650)
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3345)
-	at java.desktop/java.awt.Component.processEvent(Component.java:6415)
-	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5025)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4857)
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4857)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-Exception in thread &quot;AWT-EventQueue-0&quot; java.lang.NullPointerException
-	at crawler.WebCrawler.addTitles(WebCrawler.java:158)
-	at crawler.WebCrawler.buttonAction(WebCrawler.java:48)
-	at crawler.WebCrawler.lambda$setFieldSettings$0(WebCrawler.java:35)
-	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
-	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
-	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
-	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
-	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:270)
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6650)
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3345)
-	at java.desktop/java.awt.Component.processEvent(Component.java:6415)
-	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5025)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4857)
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4857)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-Exception in thread &quot;AWT-EventQueue-0&quot; java.lang.NullPointerException
-	at crawler.WebCrawler.addTitles(WebCrawler.java:158)
-	at crawler.WebCrawler.buttonAction(WebCrawler.java:48)
-	at crawler.WebCrawler.lambda$setFieldSettings$0(WebCrawler.java:35)
-	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
-	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
-	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
-	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
-	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:270)
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6650)
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3345)
-	at java.desktop/java.awt.Component.processEvent(Component.java:6415)
-	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5025)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4857)
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4857)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-Exception in thread &quot;AWT-EventQueue-0&quot; java.lang.NullPointerException
-	at crawler.WebCrawler.addTitles(WebCrawler.java:158)
-	at crawler.WebCrawler.buttonAction(WebCrawler.java:48)
-	at crawler.WebCrawler.lambda$setFieldSettings$0(WebCrawler.java:35)
-	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
-	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
-	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
-	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
-	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:270)
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6650)
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3345)
-	at java.desktop/java.awt.Component.processEvent(Component.java:6415)
-	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5025)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4857)
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4857)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+?[1;31m
+Start test 13?[0m
+?[1;31m
+Start test 14?[0m
+?[1;31m
+Start test 15?[0m
+?[1;31m
+Start test 16?[0m
+?[1;31m
+Start test 17?[0m
+?[1;31m
+Start test 18?[0m
+?[1;31m
+Start test 19?[0m
 </pre>
 </span>
 </div>
@@ -511,7 +136,7 @@ Exception in thread &quot;AWT-EventQueue-0&quot; java.lang.NullPointerException
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.3.1</a> at Jun 13, 2020, 9:44:34 PM</p>
+<a href="http://www.gradle.org">Gradle 5.3.1</a> at Aug 27, 2020, 7:27:26 PM</p>
 </div>
 </div>
 </body>

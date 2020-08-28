@@ -26,3 +26,28 @@ content:
 - Extracting big numbers from a text
 - Extracting words from a text
 - Find all passwords
+- Writing a thread for printing numbers
+- Message notifier as a thread
+- String processor
+- Multiple threads
+- Starting threads
+- Numbers filter
+- Starting runnables
+- VeganPizza
+- Ordering the execution of threads
+- Summing with threads
+- Calculate the number of distinct characters
+- Multithreaded counter
+- Countdown counter
+- Counting number of instances
+- Thread-safe account
+- Working with queue
+- Even numbers go first
+- Which brackets are balanced
+- Creating queue
+- The LIFO principle in action
+- Greedy load balance
+- Html Parser
+- Getting the max element of a stack
+- Next even number
+- Production of all numbers in the range

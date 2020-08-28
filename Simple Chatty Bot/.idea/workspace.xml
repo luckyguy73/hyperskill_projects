@@ -1,7 +1,730 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ae4af61-a1e8-4c14-8d38-404ad5d697a8" name="Default Changelist" comment="" />
+    <list default="true" id="6ae4af61-a1e8-4c14-8d38-404ad5d697a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Readability Score/.idea/modules/Problems/Find the first occurrence of the word &quot;the&quot;/Readability_Score-Problems-Find_the_first_occurrence_of_the_word__the__main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Readability Score/.idea/modules/Problems/Find the first occurrence of the word &quot;the&quot;/Readability_Score-Problems-Find_the_first_occurrence_of_the_word__the__test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Simple_Chatty_Bot.Problems-Assignments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Simple_Chatty_Bot.Problems-Assignments.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Simple_Chatty_Bot.Problems-Assignments.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Simple_Chatty_Bot.Problems-Digits_from_0_to_9_in_a_single_line.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Simple_Chatty_Bot.Problems-Digits_from_0_to_9_in_a_single_line.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Simple_Chatty_Bot.Problems-Digits_from_0_to_9_in_a_single_line.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Simple_Chatty_Bot.Problems-Fill_the_declaration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Simple_Chatty_Bot.Problems-Fill_the_declaration.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Simple_Chatty_Bot.Problems-Fill_the_declaration.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Simple_Chatty_Bot.Problems-From_0_to_4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Simple_Chatty_Bot.Problems-From_0_to_4.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Simple_Chatty_Bot.Problems-From_0_to_4.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Simple_Chatty_Bot.Problems-Guest_list_of_a_hotel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Simple_Chatty_Bot.Problems-Guest_list_of_a_hotel.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Simple_Chatty_Bot.Problems-Guest_list_of_a_hotel.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Simple_Chatty_Bot.Problems-Invalid_declaration_of_variables.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Simple_Chatty_Bot.Problems-Invalid_declaration_of_variables.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Simple_Chatty_Bot.Problems-Invalid_declaration_of_variables.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Simple_Chatty_Bot.Problems-Print_strings_in_the_reverse_order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Simple_Chatty_Bot.Problems-Print_strings_in_the_reverse_order.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Simple_Chatty_Bot.Problems-Print_strings_in_the_reverse_order.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Simple_Chatty_Bot.Problems-Printing_a_magic_letter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Simple_Chatty_Bot.Problems-Printing_a_magic_letter.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Simple_Chatty_Bot.Problems-Printing_a_magic_letter.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Simple_Chatty_Bot.Problems-Printing_each_word_in_a_new_line.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Simple_Chatty_Bot.Problems-Printing_each_word_in_a_new_line.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Simple_Chatty_Bot.Problems-Printing_each_word_in_a_new_line.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Simple_Chatty_Bot.Problems-The_result_of_a_Tic-Tac-Toe_game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Simple_Chatty_Bot.Problems-The_result_of_a_Tic-Tac-Toe_game.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Simple_Chatty_Bot.Problems-The_result_of_a_Tic-Tac-Toe_game.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Simple_Chatty_Bot.Problems-We_need_to_learn_Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Simple_Chatty_Bot.Problems-We_need_to_learn_Java.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Simple_Chatty_Bot.Problems-We_need_to_learn_Java.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A lambda expression with seven arguments/Web_Crawler.Problems-A_lambda_expression_with_seven_arguments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A lambda expression with seven arguments/Web_Crawler.Problems-A_lambda_expression_with_seven_arguments.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A lambda expression with seven arguments/Web_Crawler.Problems-A_lambda_expression_with_seven_arguments.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A long process/Web_Crawler.Problems-A_long_process.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A long process/Web_Crawler.Problems-A_long_process.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A long process/Web_Crawler.Problems-A_long_process.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with a single method/Web_Crawler.Problems-An_anonymous_class_with_a_single_method.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with a single method/Web_Crawler.Problems-An_anonymous_class_with_a_single_method.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with a single method/Web_Crawler.Problems-An_anonymous_class_with_a_single_method.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with three methods/Web_Crawler.Problems-An_anonymous_class_with_three_methods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with three methods/Web_Crawler.Problems-An_anonymous_class_with_three_methods.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with three methods/Web_Crawler.Problems-An_anonymous_class_with_three_methods.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Calculate the number of distinct characters/Web_Crawler.Problems-Calculate_the_number_of_distinct_characters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Calculate the number of distinct characters/Web_Crawler.Problems-Calculate_the_number_of_distinct_characters.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Calculate the number of distinct characters/Web_Crawler.Problems-Calculate_the_number_of_distinct_characters.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Calculator/Web_Crawler.Problems-Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Calculator/Web_Crawler.Problems-Calculator.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Calculator/Web_Crawler.Problems-Calculator.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check IP address/Web_Crawler.Problems-Check_IP_address.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check IP address/Web_Crawler.Problems-Check_IP_address.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check IP address/Web_Crawler.Problems-Check_IP_address.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check the clock time/Web_Crawler.Problems-Check_the_clock_time.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check the clock time/Web_Crawler.Problems-Check_the_clock_time.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check the clock time/Web_Crawler.Problems-Check_the_clock_time.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Countdown counter/Web_Crawler.Problems-Countdown_counter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Countdown counter/Web_Crawler.Problems-Countdown_counter.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Countdown counter/Web_Crawler.Problems-Countdown_counter.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Counting number of instances/Web_Crawler.Problems-Counting_number_of_instances.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Counting number of instances/Web_Crawler.Problems-Counting_number_of_instances.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Counting number of instances/Web_Crawler.Problems-Counting_number_of_instances.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Creating queue/Web_Crawler.Problems-Creating_queue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Creating queue/Web_Crawler.Problems-Creating_queue.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Creating queue/Web_Crawler.Problems-Creating_queue.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Even numbers go first/Web_Crawler.Problems-Even_numbers_go_first.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Even numbers go first/Web_Crawler.Problems-Even_numbers_go_first.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Even numbers go first/Web_Crawler.Problems-Even_numbers_go_first.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting big numbers from a text/Web_Crawler.Problems-Extracting_big_numbers_from_a_text.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting big numbers from a text/Web_Crawler.Problems-Extracting_big_numbers_from_a_text.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting big numbers from a text/Web_Crawler.Problems-Extracting_big_numbers_from_a_text.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting words from a text/Web_Crawler.Problems-Extracting_words_from_a_text.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting words from a text/Web_Crawler.Problems-Extracting_words_from_a_text.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting words from a text/Web_Crawler.Problems-Extracting_words_from_a_text.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find a word with a given length/Web_Crawler.Problems-Find_a_word_with_a_given_length.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find a word with a given length/Web_Crawler.Problems-Find_a_word_with_a_given_length.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find a word with a given length/Web_Crawler.Problems-Find_a_word_with_a_given_length.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find all passwords/Web_Crawler.Problems-Find_all_passwords.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find all passwords/Web_Crawler.Problems-Find_all_passwords.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find all passwords/Web_Crawler.Problems-Find_all_passwords.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Getting distinct strings/Web_Crawler.Problems-Getting_distinct_strings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Getting distinct strings/Web_Crawler.Problems-Getting_distinct_strings.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Getting distinct strings/Web_Crawler.Problems-Getting_distinct_strings.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Getting the max element of a stack/Web_Crawler.Problems-Getting_the_max_element_of_a_stack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Getting the max element of a stack/Web_Crawler.Problems-Getting_the_max_element_of_a_stack.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Getting the max element of a stack/Web_Crawler.Problems-Getting_the_max_element_of_a_stack.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Greedy load balance/Web_Crawler.Problems-Greedy_load_balance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Greedy load balance/Web_Crawler.Problems-Greedy_load_balance.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Greedy load balance/Web_Crawler.Problems-Greedy_load_balance.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Html Parser/Web_Crawler.Problems-Html_Parser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Html Parser/Web_Crawler.Problems-Html_Parser.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Html Parser/Web_Crawler.Problems-Html_Parser.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Illegal identifiers/Web_Crawler.Problems-Illegal_identifiers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Illegal identifiers/Web_Crawler.Problems-Illegal_identifiers.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Illegal identifiers/Web_Crawler.Problems-Illegal_identifiers.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/In the middle of a word/Web_Crawler.Problems-In_the_middle_of_a_word.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/In the middle of a word/Web_Crawler.Problems-In_the_middle_of_a_word.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/In the middle of a word/Web_Crawler.Problems-In_the_middle_of_a_word.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/IntBinaryOperation/Web_Crawler.Problems-IntBinaryOperation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/IntBinaryOperation/Web_Crawler.Problems-IntBinaryOperation.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/IntBinaryOperation/Web_Crawler.Problems-IntBinaryOperation.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Iterations/Web_Crawler.Problems-Iterations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Iterations/Web_Crawler.Problems-Iterations.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Iterations/Web_Crawler.Problems-Iterations.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Max of two integers/Web_Crawler.Problems-Max_of_two_integers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Max of two integers/Web_Crawler.Problems-Max_of_two_integers.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Max of two integers/Web_Crawler.Problems-Max_of_two_integers.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Message notifier as a thread/Web_Crawler.Problems-Message_notifier_as_a_thread.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Message notifier as a thread/Web_Crawler.Problems-Message_notifier_as_a_thread.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Message notifier as a thread/Web_Crawler.Problems-Message_notifier_as_a_thread.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Multiple threads/Web_Crawler.Problems-Multiple_threads.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Multiple threads/Web_Crawler.Problems-Multiple_threads.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Multiple threads/Web_Crawler.Problems-Multiple_threads.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Multithreaded counter/Web_Crawler.Problems-Multithreaded_counter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Multithreaded counter/Web_Crawler.Problems-Multithreaded_counter.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Multithreaded counter/Web_Crawler.Problems-Multithreaded_counter.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Next even number/Web_Crawler.Problems-Next_even_number.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Next even number/Web_Crawler.Problems-Next_even_number.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Next even number/Web_Crawler.Problems-Next_even_number.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Number parsing/Web_Crawler.Problems-Number_parsing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Number parsing/Web_Crawler.Problems-Number_parsing.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Number parsing/Web_Crawler.Problems-Number_parsing.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Numbers filter/Web_Crawler.Problems-Numbers_filter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Numbers filter/Web_Crawler.Problems-Numbers_filter.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Numbers filter/Web_Crawler.Problems-Numbers_filter.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Ordering the execution of threads/Web_Crawler.Problems-Ordering_the_execution_of_threads.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Ordering the execution of threads/Web_Crawler.Problems-Ordering_the_execution_of_threads.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Ordering the execution of threads/Web_Crawler.Problems-Ordering_the_execution_of_threads.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Output names of the methods/Web_Crawler.Problems-Output_names_of_the_methods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Output names of the methods/Web_Crawler.Problems-Output_names_of_the_methods.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Output names of the methods/Web_Crawler.Problems-Output_names_of_the_methods.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Production of all numbers in the range/Web_Crawler.Problems-Production_of_all_numbers_in_the_range.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Production of all numbers in the range/Web_Crawler.Problems-Production_of_all_numbers_in_the_range.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Production of all numbers in the range/Web_Crawler.Problems-Production_of_all_numbers_in_the_range.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning from a method/Web_Crawler.Problems-Returning_from_a_method.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning from a method/Web_Crawler.Problems-Returning_from_a_method.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning from a method/Web_Crawler.Problems-Returning_from_a_method.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning values from an anonymous class/Web_Crawler.Problems-Returning_values_from_an_anonymous_class.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning values from an anonymous class/Web_Crawler.Problems-Returning_values_from_an_anonymous_class.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning values from an anonymous class/Web_Crawler.Problems-Returning_values_from_an_anonymous_class.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Safe password/Web_Crawler.Problems-Safe_password.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Safe password/Web_Crawler.Problems-Safe_password.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Safe password/Web_Crawler.Problems-Safe_password.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Shape hierarchy/Web_Crawler.Problems-Shape_hierarchy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Shape hierarchy/Web_Crawler.Problems-Shape_hierarchy.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Shape hierarchy/Web_Crawler.Problems-Shape_hierarchy.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Start or end of a word/Web_Crawler.Problems-Start_or_end_of_a_word.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Start or end of a word/Web_Crawler.Problems-Start_or_end_of_a_word.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Start or end of a word/Web_Crawler.Problems-Start_or_end_of_a_word.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Starting runnables/Web_Crawler.Problems-Starting_runnables.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Starting runnables/Web_Crawler.Problems-Starting_runnables.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Starting runnables/Web_Crawler.Problems-Starting_runnables.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Starting threads/Web_Crawler.Problems-Starting_threads.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Starting threads/Web_Crawler.Problems-Starting_threads.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Starting threads/Web_Crawler.Problems-Starting_threads.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/String processor/Web_Crawler.Problems-String_processor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/String processor/Web_Crawler.Problems-String_processor.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/String processor/Web_Crawler.Problems-String_processor.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/String reverser/Web_Crawler.Problems-String_reverser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/String reverser/Web_Crawler.Problems-String_reverser.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/String reverser/Web_Crawler.Problems-String_reverser.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Summing with threads/Web_Crawler.Problems-Summing_with_threads.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Summing with threads/Web_Crawler.Problems-Summing_with_threads.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Summing with threads/Web_Crawler.Problems-Summing_with_threads.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/The LIFO principle in action/Web_Crawler.Problems-The_LIFO_principle_in_action.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/The LIFO principle in action/Web_Crawler.Problems-The_LIFO_principle_in_action.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/The LIFO principle in action/Web_Crawler.Problems-The_LIFO_principle_in_action.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Thread-safe account/Web_Crawler.Problems-Thread-safe_account.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Thread-safe account/Web_Crawler.Problems-Thread-safe_account.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Thread-safe account/Web_Crawler.Problems-Thread-safe_account.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Users and WebSites/Web_Crawler.Problems-Users_and_WebSites.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Users and WebSites/Web_Crawler.Problems-Users_and_WebSites.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Users and WebSites/Web_Crawler.Problems-Users_and_WebSites.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/VeganPizza/Web_Crawler.Problems-VeganPizza.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/VeganPizza/Web_Crawler.Problems-VeganPizza.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/VeganPizza/Web_Crawler.Problems-VeganPizza.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Vehicle registration number/Web_Crawler.Problems-Vehicle_registration_number.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Vehicle registration number/Web_Crawler.Problems-Vehicle_registration_number.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Vehicle registration number/Web_Crawler.Problems-Vehicle_registration_number.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Which brackets are balanced/Web_Crawler.Problems-Which_brackets_are_balanced.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Which brackets are balanced/Web_Crawler.Problems-Which_brackets_are_balanced.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Which brackets are balanced/Web_Crawler.Problems-Which_brackets_are_balanced.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Working with queue/Web_Crawler.Problems-Working_with_queue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Working with queue/Web_Crawler.Problems-Working_with_queue.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Working with queue/Web_Crawler.Problems-Working_with_queue.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Writing a thread for printing numbers/Web_Crawler.Problems-Writing_a_thread_for_printing_numbers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Writing a thread for printing numbers/Web_Crawler.Problems-Writing_a_thread_for_printing_numbers.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Writing a thread for printing numbers/Web_Crawler.Problems-Writing_a_thread_for_printing_numbers.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Web Crawler/task/Web_Crawler.Web_Crawler-task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Web Crawler/task/Web_Crawler.Web_Crawler-task.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Web Crawler/task/Web_Crawler.Web_Crawler-task.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/util/Web_Crawler.util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/util/Web_Crawler.util.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules/util/Web_Crawler.util.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Calculate the number of distinct characters/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Calculate the number of distinct characters/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Calculate the number of distinct characters/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Calculate the number of distinct characters/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Countdown counter/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Countdown counter/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Countdown counter/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Countdown counter/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Counting number of instances/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Counting number of instances/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Counting number of instances/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Counting number of instances/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Creating queue/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Creating queue/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Creating queue/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Creating queue/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Even numbers go first/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Even numbers go first/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Even numbers go first/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Even numbers go first/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Getting the max element of a stack/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Getting the max element of a stack/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Getting the max element of a stack/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Getting the max element of a stack/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Greedy load balance/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Greedy load balance/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Greedy load balance/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Greedy load balance/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Html Parser/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Html Parser/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Html Parser/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Html Parser/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Message notifier as a thread/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Message notifier as a thread/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Message notifier as a thread/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Message notifier as a thread/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Multiple threads/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Multiple threads/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Multiple threads/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Multiple threads/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Multithreaded counter/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Multithreaded counter/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Multithreaded counter/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Multithreaded counter/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Next even number/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Next even number/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Next even number/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Next even number/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Numbers filter/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Numbers filter/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Numbers filter/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Numbers filter/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Ordering the execution of threads/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Ordering the execution of threads/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Ordering the execution of threads/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Ordering the execution of threads/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Production of all numbers in the range/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Production of all numbers in the range/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Production of all numbers in the range/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Production of all numbers in the range/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Starting runnables/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Starting runnables/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Starting runnables/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Starting runnables/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Starting threads/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Starting threads/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Starting threads/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Starting threads/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/String processor/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/String processor/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/String processor/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/String processor/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Summing with threads/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Summing with threads/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Summing with threads/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Summing with threads/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/The LIFO principle in action/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/The LIFO principle in action/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/The LIFO principle in action/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/The LIFO principle in action/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Thread-safe account/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Thread-safe account/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Thread-safe account/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Thread-safe account/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/VeganPizza/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/VeganPizza/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/VeganPizza/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/VeganPizza/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Which brackets are balanced/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Which brackets are balanced/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Which brackets are balanced/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Which brackets are balanced/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Working with queue/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Working with queue/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Working with queue/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Working with queue/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Writing a thread for printing numbers/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Writing a thread for printing numbers/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Writing a thread for printing numbers/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Writing a thread for printing numbers/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/src/crawler/domain/CrawledPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/src/crawler/domain/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/src/crawler/domain/UrlAndTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/src/crawler/service/WebCrawlerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/src/crawler/util/WebCrawlerRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/temp.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/test/common/WebCrawlerStage6Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/wc.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Numeral System Converter/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/../Numeral System Converter/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Numeral System Converter/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/../Numeral System Converter/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/.idea/modules/Problems/Find the first occurrence of the word &quot;the&quot;/Problems-Find_the_first_occurrence_of_the_word__the__main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/.idea/modules/Problems/Find the first occurrence of the word &quot;the&quot;/Problems-Find_the_first_occurrence_of_the_word__the__test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Compression algorithm/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Compression algorithm/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Convert a date/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Convert a date/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Create an euphonious word/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Create an euphonious word/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Cutting out the middle of a string/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Cutting out the middle of a string/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Double characters/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Double characters/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Find the first occurrence of the word &quot;the&quot;/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Find the first occurrence of the word &quot;the&quot;/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Generating passwords/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Generating passwords/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Heron's formula/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Heron's formula/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Move the first N characters/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Move the first N characters/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Number of occurrences/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Number of occurrences/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Palindrome/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Palindrome/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Parse url/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Parse url/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Piece of alphabet/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Piece of alphabet/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Pow/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Pow/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/Quadratic equation/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/Quadratic equation/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/The longest word/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/The longest word/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/The lucky ticket/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/The lucky ticket/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Problems/The percentage of G and C characters/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Problems/The percentage of G and C characters/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Readability Score/More parameters/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Readability Score/More parameters/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Readability Score/Score!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Readability Score/Score!/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Readability Score/Simplest estimation/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Readability Score/Simplest estimation/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readability Score/Readability Score/Words and sentences/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Readability Score/Readability Score/Words and sentences/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Problems-Assignments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Problems-Assignments_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Problems-Assignments_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Problems-Digits_from_0_to_9_in_a_single_line.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Problems-Digits_from_0_to_9_in_a_single_line_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Problems-Digits_from_0_to_9_in_a_single_line_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Problems-Fill_the_declaration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Problems-Fill_the_declaration_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Problems-Fill_the_declaration_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Problems-From_0_to_4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Problems-From_0_to_4_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Problems-From_0_to_4_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Problems-Guest_list_of_a_hotel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Problems-Guest_list_of_a_hotel_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Problems-Guest_list_of_a_hotel_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Problems-Invalid_declaration_of_variables.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Problems-Invalid_declaration_of_variables_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Problems-Invalid_declaration_of_variables_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Problems-Print_strings_in_the_reverse_order.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Problems-Print_strings_in_the_reverse_order_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Problems-Print_strings_in_the_reverse_order_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Problems-Printing_a_magic_letter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Problems-Printing_a_magic_letter_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Problems-Printing_a_magic_letter_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Problems-Printing_each_word_in_a_new_line.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Problems-Printing_each_word_in_a_new_line_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Problems-Printing_each_word_in_a_new_line_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Problems-The_result_of_a_Tic-Tac-Toe_game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Problems-The_result_of_a_Tic-Tac-Toe_game_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Problems-The_result_of_a_Tic-Tac-Toe_game_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Problems-We_need_to_learn_Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Problems-We_need_to_learn_Java_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Problems-We_need_to_learn_Java_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot-task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot-task_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot-task_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Assignments/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Assignments/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Assignments/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Assignments/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Digits from 0 to 9 in a single line/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Digits from 0 to 9 in a single line/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Digits from 0 to 9 in a single line/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Digits from 0 to 9 in a single line/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fill the declaration/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Fill the declaration/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fill the declaration/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Fill the declaration/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/From 0 to 4/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/From 0 to 4/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/From 0 to 4/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/From 0 to 4/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Guest list of a hotel/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Guest list of a hotel/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Guest list of a hotel/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Guest list of a hotel/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Invalid declaration of variables/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Invalid declaration of variables/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Invalid declaration of variables/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Invalid declaration of variables/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Print strings in the reverse order/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Print strings in the reverse order/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Print strings in the reverse order/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Print strings in the reverse order/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing a magic letter/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Printing a magic letter/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing a magic letter/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Printing a magic letter/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing each word in a new line/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Printing each word in a new line/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing each word in a new line/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Printing each word in a new line/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The result of a Tic-Tac-Toe game/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The result of a Tic-Tac-Toe game/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The result of a Tic-Tac-Toe game/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The result of a Tic-Tac-Toe game/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/We need to learn Java/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/We need to learn Java/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/We need to learn Java/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/We need to learn Java/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Hello! What’s your name?/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/Hello! What’s your name?/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Hello! What’s your name?/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/Hello! What’s your name?/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Hello! What’s your name?/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/Hello! What’s your name?/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/How old are you?/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/How old are you?/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/How old are you?/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/How old are you?/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/How old are you?/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/How old are you?/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Let’s count!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/Let’s count!/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Let’s count!/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/Let’s count!/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/The student and the teacher/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/The student and the teacher/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/The student and the teacher/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/The student and the teacher/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/The student and the teacher/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/The student and the teacher/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/classes/java/main/bot/SimpleBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/classes/java/main/bot/SimpleBot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/classes/java/test/Clue.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/classes/java/test/Clue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/classes/java/test/PersonalAssistantTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/classes/java/test/PersonalAssistantTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/reports/tests/test/classes/PersonalAssistantTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/reports/tests/test/classes/PersonalAssistantTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/TEST-PersonalAssistantTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/TEST-PersonalAssistantTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/src/bot/SimpleBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/src/bot/SimpleBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/5.3.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/libraries/Gradle__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.idea/libraries/Gradle__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A lambda expression with seven arguments/Problems-A_lambda_expression_with_seven_arguments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A lambda expression with seven arguments/Problems-A_lambda_expression_with_seven_arguments_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A lambda expression with seven arguments/Problems-A_lambda_expression_with_seven_arguments_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A long process/Problems-A_long_process.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A long process/Problems-A_long_process_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/A long process/Problems-A_long_process_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with a single method/Problems-An_anonymous_class_with_a_single_method.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with a single method/Problems-An_anonymous_class_with_a_single_method_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with a single method/Problems-An_anonymous_class_with_a_single_method_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with three methods/Problems-An_anonymous_class_with_three_methods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with three methods/Problems-An_anonymous_class_with_three_methods_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/An anonymous class with three methods/Problems-An_anonymous_class_with_three_methods_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Calculator/Problems-Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Calculator/Problems-Calculator_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Calculator/Problems-Calculator_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check IP address/Problems-Check_IP_address.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check IP address/Problems-Check_IP_address_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check IP address/Problems-Check_IP_address_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check the clock time/Problems-Check_the_clock_time.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check the clock time/Problems-Check_the_clock_time_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Check the clock time/Problems-Check_the_clock_time_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting big numbers from a text/Problems-Extracting_big_numbers_from_a_text.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting big numbers from a text/Problems-Extracting_big_numbers_from_a_text_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting big numbers from a text/Problems-Extracting_big_numbers_from_a_text_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting words from a text/Problems-Extracting_words_from_a_text.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting words from a text/Problems-Extracting_words_from_a_text_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Extracting words from a text/Problems-Extracting_words_from_a_text_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find a word with a given length/Problems-Find_a_word_with_a_given_length.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find a word with a given length/Problems-Find_a_word_with_a_given_length_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find a word with a given length/Problems-Find_a_word_with_a_given_length_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find all passwords/Problems-Find_all_passwords.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find all passwords/Problems-Find_all_passwords_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Find all passwords/Problems-Find_all_passwords_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Getting distinct strings/Problems-Getting_distinct_strings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Getting distinct strings/Problems-Getting_distinct_strings_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Getting distinct strings/Problems-Getting_distinct_strings_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Illegal identifiers/Problems-Illegal_identifiers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Illegal identifiers/Problems-Illegal_identifiers_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Illegal identifiers/Problems-Illegal_identifiers_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/In the middle of a word/Problems-In_the_middle_of_a_word.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/In the middle of a word/Problems-In_the_middle_of_a_word_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/In the middle of a word/Problems-In_the_middle_of_a_word_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/IntBinaryOperation/Problems-IntBinaryOperation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/IntBinaryOperation/Problems-IntBinaryOperation_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/IntBinaryOperation/Problems-IntBinaryOperation_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Iterations/Problems-Iterations.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Iterations/Problems-Iterations_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Iterations/Problems-Iterations_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Max of two integers/Problems-Max_of_two_integers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Max of two integers/Problems-Max_of_two_integers_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Max of two integers/Problems-Max_of_two_integers_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Number parsing/Problems-Number_parsing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Number parsing/Problems-Number_parsing_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Number parsing/Problems-Number_parsing_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Output names of the methods/Problems-Output_names_of_the_methods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Output names of the methods/Problems-Output_names_of_the_methods_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Output names of the methods/Problems-Output_names_of_the_methods_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning from a method/Problems-Returning_from_a_method.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning from a method/Problems-Returning_from_a_method_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning from a method/Problems-Returning_from_a_method_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning values from an anonymous class/Problems-Returning_values_from_an_anonymous_class.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning values from an anonymous class/Problems-Returning_values_from_an_anonymous_class_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Returning values from an anonymous class/Problems-Returning_values_from_an_anonymous_class_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Safe password/Problems-Safe_password.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Safe password/Problems-Safe_password_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Safe password/Problems-Safe_password_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Shape hierarchy/Problems-Shape_hierarchy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Shape hierarchy/Problems-Shape_hierarchy_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Shape hierarchy/Problems-Shape_hierarchy_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Start or end of a word/Problems-Start_or_end_of_a_word.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Start or end of a word/Problems-Start_or_end_of_a_word_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Start or end of a word/Problems-Start_or_end_of_a_word_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/String reverser/Problems-String_reverser.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/String reverser/Problems-String_reverser_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/String reverser/Problems-String_reverser_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Users and WebSites/Problems-Users_and_WebSites.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Users and WebSites/Problems-Users_and_WebSites_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Users and WebSites/Problems-Users_and_WebSites_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Vehicle registration number/Problems-Vehicle_registration_number.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Vehicle registration number/Problems-Vehicle_registration_number_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Problems/Vehicle registration number/Problems-Vehicle_registration_number_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Web Crawler/task/Web_Crawler-task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Web Crawler/task/Web_Crawler-task_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/Web Crawler/task/Web_Crawler-task_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/util/util.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/util/util_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/.idea/modules/util/util_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/A lambda expression with seven arguments/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/A lambda expression with seven arguments/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/A lambda expression with seven arguments/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/A lambda expression with seven arguments/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/A long process/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/A long process/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/A long process/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/A long process/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/An anonymous class with a single method/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/An anonymous class with a single method/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/An anonymous class with a single method/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/An anonymous class with a single method/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/An anonymous class with three methods/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/An anonymous class with three methods/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/An anonymous class with three methods/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/An anonymous class with three methods/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Calculator/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Calculator/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Calculator/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Calculator/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Check IP address/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Check IP address/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Check IP address/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Check IP address/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Check IP address/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Check the clock time/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Check the clock time/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Check the clock time/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Check the clock time/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Check the clock time/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Extracting big numbers from a text/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Extracting big numbers from a text/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Extracting big numbers from a text/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Extracting big numbers from a text/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Extracting big numbers from a text/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Extracting words from a text/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Extracting words from a text/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Extracting words from a text/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Extracting words from a text/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Extracting words from a text/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Find a word with a given length/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Find a word with a given length/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Find a word with a given length/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Find a word with a given length/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Find a word with a given length/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Find all passwords/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Find all passwords/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Find all passwords/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Find all passwords/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Find all passwords/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Getting distinct strings/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Getting distinct strings/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Getting distinct strings/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Getting distinct strings/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Getting distinct strings/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Getting distinct strings/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Getting distinct strings/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Getting distinct strings/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Illegal identifiers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Illegal identifiers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Illegal identifiers/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Illegal identifiers/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/In the middle of a word/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/In the middle of a word/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/In the middle of a word/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/In the middle of a word/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/In the middle of a word/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/IntBinaryOperation/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/IntBinaryOperation/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/IntBinaryOperation/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/IntBinaryOperation/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Iterations/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Iterations/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Iterations/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Iterations/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Max of two integers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Max of two integers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Max of two integers/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Max of two integers/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Number parsing/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Number parsing/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Number parsing/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Number parsing/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Number parsing/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Output names of the methods/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Output names of the methods/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Output names of the methods/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Output names of the methods/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Output names of the methods/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Output names of the methods/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Returning from a method/out/production/classes/Create$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Returning from a method/out/production/classes/Create$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Returning from a method/out/production/classes/Create.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Returning from a method/out/production/classes/Create.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Returning from a method/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Returning from a method/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Returning from a method/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Returning from a method/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Returning values from an anonymous class/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Returning values from an anonymous class/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Returning values from an anonymous class/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Returning values from an anonymous class/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Safe password/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Safe password/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Safe password/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Safe password/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Shape hierarchy/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Shape hierarchy/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Shape hierarchy/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Shape hierarchy/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Start or end of a word/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Start or end of a word/out/production/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Start or end of a word/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Start or end of a word/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Start or end of a word/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Start or end of a word/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/String reverser/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/String reverser/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/String reverser/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/String reverser/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Users and WebSites/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Users and WebSites/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Users and WebSites/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Users and WebSites/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Vehicle registration number/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Vehicle registration number/out/production/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Vehicle registration number/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Vehicle registration number/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/Vehicle registration number/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/Vehicle registration number/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Problems/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Collect them all!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Collect them all!/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Collect them all!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Collect them all!/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Complicated matters/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Complicated matters/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Complicated matters/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Complicated matters/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Crawl through the window/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Crawl through the window/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Crawl through the window/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Crawl through the window/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Links, links/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Links, links/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Links, links/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Links, links/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Save the results/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Save the results/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Save the results/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Save the results/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Titles/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Titles/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Titles/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/Titles/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/java/main/crawler/WebCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/java/main/crawler/WebCrawler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/java/main/crawler/WebCrawlerTableModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/java/test/CrawlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/java/test/CrawlerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/META-INF/Web_Crawler-task.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/META-INF/Web_Crawler-task.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/common/WebCrawlerStage4Test$generate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/common/WebCrawlerStage4Test$generate$getButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/common/WebCrawlerStage4Test$generate$titleLabel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/common/WebCrawlerStage4Test$generate$titlesTable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/common/WebCrawlerStage4Test$generate$urlText$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/common/WebCrawlerStage4Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/common/WebCrawlerStage4TestKt$stage3Tests$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/common/WebCrawlerStage4TestKt$stage3Tests$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/common/WebCrawlerStage4TestKt$stage4Tests$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/classes/kotlin/test/common/WebCrawlerStage4TestKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/kotlin/compileTestKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/reports/tests/test/classes/CrawlerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/reports/tests/test/classes/CrawlerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/test-results/test/TEST-CrawlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/test-results/test/TEST-CrawlerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/out/production/classes/crawler/WebCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/out/production/classes/crawler/WebCrawler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/out/production/classes/crawler/WebCrawlerTableModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/src/crawler/WebCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/src/crawler/WebCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/src/crawler/WebCrawlerTableModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/test/CrawlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/test/CrawlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/Web Crawler/task/test/common/WebCrawlerStage4Test.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Crawler/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Crawler/course-remote-info.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,48 +735,81 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Simple_Chatty_Bot" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1bvoyU1zB3zxLHslsam1GDPjfzz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems-Print_strings_in_the_reverse_order_main" />
+  <component name="RunManager">
+    <configuration name="SimpleBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="bot.SimpleBot" />
+      <module name="Simple_Chatty_Bot.Simple_Chatty_Bot-task.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems-Printing_each_word_in_a_new_line_main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems-Printing_a_magic_letter_main" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SimpleBot" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -66,36 +822,42 @@
       <updated>1589522182022</updated>
       <workItem from="1589522184385" duration="728000" />
       <workItem from="1589522996106" duration="3266000" />
+      <workItem from="1598582740769" duration="1263000" />
+      <workItem from="1598584052774" duration="481000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1589525925963">
+    <state x="445" y="281" key="#Notifications" timestamp="1598583152284">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589525925963" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589522359223" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1589525925962">
+    <state x="445" y="281" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1598583152284" />
+    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598583943095">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589525925962" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589522359177" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1589525925962">
+    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1598583943095" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1598584015834">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589525925962" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589522359164" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1589525925963">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598584015834" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1598584015833">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589525925963" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589522359216" />
-    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1589522996034">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1598584015833" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1598584015832">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1589522996034" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1598584015832" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1598584015834">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1598584015834" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1598583693274">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1598583693274" />
   </component>
 </project>

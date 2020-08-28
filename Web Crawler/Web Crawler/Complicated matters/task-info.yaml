@@ -440,6 +440,47 @@ files:
         }
     }
   learner_created: false
+- name: src/crawler/ApplicationRunner.java
+  visible: true
+  text: |
+    package crawler;
+
+    public class ApplicationRunner {
+
+        public static void main(String[] args) {
+            new WebCrawler();
+        }
+
+    }
+  learner_created: true
+- name: temp.log
+  visible: true
+  learner_created: true
+- name: wc.log
+  visible: true
+  learner_created: true
+- name: src/crawler/WebCrawler.java
+  visible: true
+  learner_created: true
+- name: src/crawler/domain/CrawledPage.java
+  visible: true
+  learner_created: true
+- name: src/crawler/domain/Page.java
+  visible: true
+  learner_created: true
+- name: src/crawler/domain/UrlAndTitle.java
+  visible: true
+  learner_created: true
+- name: src/crawler/service/WebCrawlerService.java
+  visible: true
+  learner_created: true
+- name: src/crawler/util/WebCrawlerRunner.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/59/stages/322/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/59/stages/322/implement">JetBrains
+    Academy</a>
+  time: Fri, 28 Aug 2020 02:27:26 UTC
 record: -1

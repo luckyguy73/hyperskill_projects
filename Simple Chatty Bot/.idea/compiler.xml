@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11">
       <module name="Problems-Assignments_main" target="11" />
       <module name="Problems-Assignments_test" target="11" />
       <module name="Problems-Digits_from_0_to_9_in_a_single_line_main" target="11" />

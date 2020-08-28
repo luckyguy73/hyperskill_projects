@@ -6,16 +6,22 @@ hyperskill_project:
 stages:
 - id: 317
   step: 5459
+  is_completed: true
 - id: 318
   step: 5460
+  is_completed: true
 - id: 319
   step: 5461
+  is_completed: true
 - id: 320
   step: 5462
+  is_completed: true
 - id: 321
   step: 5463
+  is_completed: true
 - id: 322
   step: 5464
+  is_completed: true
 topics:
   0:
   - title: Units of information
@@ -26,8 +32,6 @@ topics:
     theory_id: 7929
   - title: Libraries
     theory_id: 8504
-  - title: Binary numbers
-    theory_id: 5544
   - title: IDE
     theory_id: 3805
   - title: What is an exception
@@ -36,8 +40,6 @@ topics:
     theory_id: 1945
   - title: Generic programming
     theory_id: 3492
-  - title: Functional interfaces and lambda expressions
-    theory_id: 3601
   - title: The basic window in Swing
     theory_id: 5514
   - title: Swing components
@@ -58,8 +60,6 @@ topics:
     theory_id: 3510
   - title: Primitive and reference types
     theory_id: 5035
-  - title: Final variables
-    theory_id: 7427
   - title: Array
     theory_id: 3511
   - title: Comments
@@ -82,16 +82,18 @@ topics:
     theory_id: 3514
   - title: String
     theory_id: 3523
+  - title: Final variables
+    theory_id: 7427
   - title: Conditional statement
     theory_id: 3503
+  - title: Ternary operator
+    theory_id: 3506
   - title: The for-loop
     theory_id: 3505
   - title: The while and do-while loops
     theory_id: 3498
   - title: Branching statements
     theory_id: 3507
-  - title: Ternary operator
-    theory_id: 3506
   - title: Defining methods
     theory_id: 3590
   - title: Overloading
@@ -140,9 +142,9 @@ topics:
     theory_id: 3564
   - title: Boxing and unboxing
     theory_id: 3595
+  - title: Functional interfaces and lambda expressions
+    theory_id: 3601
   1:
-  - title: Computer programming
-    theory_id: 8739
   - title: What are streams
     theory_id: 5533
   - title: Hierarchy of exceptions
@@ -187,6 +189,8 @@ topics:
   3:
   - title: Computer algorithms
     theory_id: 4953
+  - title: Introducing the first algorithm
+    theory_id: 10336
   - title: The big O notation
     theory_id: 4991
   - title: Data structures
