@@ -3,7 +3,7 @@ package processor;
 import java.util.Scanner;
 
 public class Main {
-    enum State { MAIN_MENU, EXIT }
+    enum State { MAIN_MENU, TRANSPOSE, EXIT }
 
     private static State state;
     private static Matrix A;
@@ -27,6 +27,7 @@ public class Main {
         String menu =   "1) Add matrices\n" +
                         "2) Multiply matrix to a constant\n" +
                         "3) Multiply matrices\n" +
+                        "4) Transpose matrix\n" +
                         "0) Exit\n\n" +
                         "Your choice: ";
         System.out.print("\n" + menu);
@@ -35,6 +36,7 @@ public class Main {
     private static void execute(String command) {
         switch (state) {
             case MAIN_MENU: mainMenu(command); break;
+            case TRANSPOSE: transposeMatrix(command); break;
             case EXIT: exitProgram(); break;
             default: setDefault();
         }
@@ -45,9 +47,20 @@ public class Main {
             case "1": addMatrices(); break;
             case "2": multiplyByConstant(); break;
             case "3": multiplyMatrices(); break;
+            case "4": transposeMenu(); break;
             case "0": exitProgram(); break;
             default: setDefault();
         }
+    }
+
+    private static void transposeMenu() {
+        String menu =   "1) Main diagonal\n" +
+                        "2) Side diagonal\n" +
+                        "3) Vertical line\n" +
+                        "4) Horizontal line\n\n" +
+                        "Your choice: ";
+        System.out.print("\n" + menu);
+        state = State.TRANSPOSE;
     }
 
     private static void addMatrices() {
@@ -73,10 +86,25 @@ public class Main {
     private static void multiplyMatrices() {
         createMatrix();
         createMatrix();
-        Matrix M = Matrix.multiplyMatrices(A, B);
+        Matrix X = Matrix.multiplyMatrices(A, B);
         System.out.println("\nThe multiplication result is: ");
-        if (M != null) M.displayMatrix();
+        if (X != null) X.displayMatrix();
         else System.out.println("\nThe first matrix columns and second matrix rows must be equal!");
+        setDefault();
+    }
+
+    private static void transposeMatrix(String command) {
+        createMatrix();
+        Matrix X;
+        switch (command) {
+            case "1": X = Matrix.transposeMainDiagonal(A); break;
+            case "2": X = Matrix.transposeSideDiagonal(A); break;
+            case "3": X = Matrix.transposeVerticalLine(A); break;
+            case "4": X = Matrix.transposeHorizontalLine(A); break;
+            default: X = A;
+        }
+        System.out.println("\nThe result is: ");
+        X.displayMatrix();
         setDefault();
     }
 
