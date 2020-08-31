@@ -57,20 +57,7 @@ public class Matrix {
         for (int i = 0; i < A.getRows(); ++i)
             for (int j = 0; j < B.getCols(); ++j)
                 for (int k = 0; k < A.getCols(); ++k)
-                    out.insert(i, j, out.retrieve(i, j) + A.retrieve(i, k) * B.retrieve(k, j));
+                    out.data[i][j] += A.data[i][k] * B.data[k][j];
         return out;
-    }
-
-    private boolean isValid(int i, int j) {
-        return i >= 0 && i < getRows() && j >= 0 && j < getCols();
-    }
-
-    private void insert(int i, int j, double val) {
-        if (isValid(i, j)) data[i][j] = val;
-    }
-
-    private double retrieve(int i, int j) {
-        if (isValid(i, j)) return data[i][j];
-        return Double.MIN_VALUE;
     }
 }
