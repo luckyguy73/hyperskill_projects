@@ -1,0 +1,43 @@
+<h2 style="text-align: center;">Description</h2>
+
+<p>The next stage is the multiplication of matrices. This operation is more complex than you might think because it’s not enough to multiply corresponding elements to get a true multiplication of matrices. Multiplication of <span class="math-tex">\(A _{n , m}\)</span> matrix with <span class="math-tex">\(n\)</span> rows and <span class="math-tex">\(m\)</span> columns and <span class="math-tex">\(B_{m , k}\)</span> matrix with <span class="math-tex">\(m\)</span> rows and <span class="math-tex">\(k\)</span> columns is <span class="math-tex">\(C_{n , k} = A_{n , m} \times B_{m, k}\)</span> matrix with <span class="math-tex">\(n\)</span> rows and <span class="math-tex">\(k\)</span> columns where every element is a sum of multiplication <span class="math-tex">\(m\)</span> elements across rows of matrix <span class="math-tex">\(A\)</span> on <span class="math-tex">\(m\)</span> elements down columns of matrix <span class="math-tex">\(B\)</span>. Notice how matrices are different in size: the only restriction is that the number of columns of the first matrix should be equal to the number of rows of the second matrix. Check out <a target="_blank" href="https://youtube.com/watch?v=XkY2DOUCWMU&amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&amp;index=5" rel="nofollow noopener noreferrer">this video</a> about matrix multiplication.</p>
+
+<p>Notice, that <span class="math-tex">\(A_{i , j} \times B_{j , k}\)</span> is not equal to <span class="math-tex">\(B_{j, k} \times A_{i , j}\)</span>. In fact, it is even not possible to multiply if <span class="math-tex">\( k \ne i. \)</span> And if <span class="math-tex">\( k = i \)</span>, the resulting matrices still would be different.</p>
+
+<p>Take a look at this example:</p>
+
+<p><span class="math-tex">\(\begin{pmatrix} 1 &amp; 7 &amp; 7 \\ 6 &amp; 6 &amp; 4 \\ 4 &amp; 2 &amp; 1 \end{pmatrix} \times \begin{pmatrix} 3 &amp; 2 &amp; 4 \\ 5 &amp; 5 &amp; 9 \\ 8 &amp; 0 &amp; 10 \end{pmatrix} = \begin{pmatrix} 1\times3+7\times5+7\times8 &amp; 1\times2+7\times5+7\times0 &amp; 1\times4+7\times9+7\times10 \\ 6\times3+6\times5+4\times8 &amp; 6\times2+6\times5+4\times0 &amp; 6\times4+6\times9+4\times10 \\ 4\times3+2\times5+1\times8 &amp; 4\times2+2\times5+1\times0 &amp; 4\times4+2\times9+1\times10 \end{pmatrix} = \begin{pmatrix} 94 &amp; 37 &amp; 137 \\ 80 &amp; 42 &amp; 118 \\ 30 &amp; 18 &amp; 44 \end{pmatrix}\)</span></p>
+
+<p style="text-align: center;"> </p>
+
+<p>Write a program that outputs multiplication of <span class="math-tex">\( A \)</span> and <span class="math-tex">\( B \)</span> matrices. Also, you should write the main menu where you can apply different operations on matrices. Make it the same as in the example. Also, now you should be able to support floating-point numbers.</p>
+
+<h2 style="text-align: center;">Example</h2>
+
+<p>Below is an example of what your output might look like:</p>
+
+<pre><code class="language-no-highlight">1. Add matrices
+2. Multiply matrix to a constant
+3. Multiply matrices
+0. Exit
+Your choice: &gt; 3
+Enter size of first matrix: &gt; 3 3
+Enter first matrix:
+&gt; 1 7 7
+&gt; 6 6 4
+&gt; 4 2 1
+Enter size of second matrix: &gt; 3 3
+Enter second matrix:
+&gt; 3 2 4
+&gt; 5 5 9
+&gt; 8 0 10
+The multiplication result is:
+94 37 137
+80 42 118
+30 18 44
+
+1. Add matrices
+2. Multiply matrix to a constant
+3. Multiply matrices
+0. Exit
+Your choice: &gt; 0</code></pre>

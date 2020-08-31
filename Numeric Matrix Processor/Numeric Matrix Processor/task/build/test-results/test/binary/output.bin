@@ -1,0 +1,373 @@
+[1;31m
+Start test 1[0m
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 1
+
+Enter size of first	 matrix: > 3 3
+Enter matrix data: 
+	> 3 4 55
+> 4 1 1
+> 9 0 0
+
+Enter size of second	 matrix: > 3 3
+Enter matrix data: 
+	> 4 9 77
+> 13 22 44
+> 56 57 78
+
+The addition result is: 
+7.0 13.0 132.0 
+17.0 23.0 45.0 
+65.0 57.0 78.0 
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+[1;31m
+Start test 2[0m
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 1
+
+Enter size of first	 matrix: > 4 4
+Enter matrix data: 
+> -0.3 677.4 435.2 123.33
+> 1.3 141.4 0.11 1411.4
+> 231.33 113.4 99.9 999.9
+> 1002.22 123.44 55.66 13.3
+
+Enter size of second	 matrix: > 4 4
+Enter matrix data: 
+> 43.43 234.22 876.6 13.2
+> -5.5 -0.3 -1.2 10.2
+> -1.0 0.8 0.8 -9.5
+> -45.5 45.5 56.5 13.7
+
+The addition result is: 
+43.13 911.62 1311.8 136.53 
+-4.2 141.1 -1.0899999999999999 1421.6000000000001 
+230.33 114.2 100.7 990.4 
+956.72 168.94 112.16 27.0 
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+[1;31m
+Start test 3[0m
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 2
+
+Enter size of first	 matrix: > 3 3
+Enter matrix data: 
+> 11 234 444
+> 456 343 222
+> 997 456 456
+
+&Enter constant to multiply matrix by: > 17
+
+The result of multiplying by 17 is: 
+187.0 3978.0 7548.0 
+7752.0 5831.0 3774.0 
+16949.0 7752.0 7752.0 
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+[1;31m
+Start test 4[0m
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 2
+
+Enter size of first	 matrix: > 4 4
+Enter matrix data: 
+> 10123 53455 999345 21312
+> 13559 77654 231221 34534
+> 12312 23412 342342 525255
+> 99713 88123 123123 121111
+
+&Enter constant to multiply matrix by: > 111
+
+The result of multiplying by 111 is: 
+
+1123653.0 
+5933505.0 1.10927295E8 
+2365632.0 
+
+1505049.0 
+8619594.0 2.5665531E7 
+3833274.0 
+
+1366632.0 
+2598732.0 3.7999962E7 5.8303305E7 
+1.1068143E7 
+9781653.0 1.3666653E7 1.3443321E7 
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+[1;31m
+Start test 5[0m
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 3
+
+Enter size of first	 matrix: > 4 4
+Enter matrix data: 
+
+> 1 2 2 7
+
+> 3 3 4 5
+
+> 5 0 0 1
+
+> 0 1 0 8
+
+Enter size of second	 matrix: > 4 4
+Enter matrix data: 
+> 9 8 7 13
+> 15 14 0 1
+
+> 3 7 2 3
+> 0 9 0 35
+
+The multiplication result is: 
+45.0 113.0 11.0 266.0 
+84.0 139.0 29.0 229.0 
+45.0 49.0 35.0 100.0 
+15.0 86.0 0.0 281.0 
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+[1;31m
+Start test 6[0m
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 3
+
+Enter size of first	 matrix: > 2 3
+Enter matrix data: 
+	> 1 0 17
+
+> 15 19 7
+
+Enter size of second	 matrix: > 3 4
+Enter matrix data: 
+> 5 6 78 9
+> 29 31 47 1
+> 14 17 0 3
+
+The multiplication result is: 
+243.0 295.0 78.0 60.0 
+724.0 798.0 2063.0 175.0 
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+[1;31m
+Start test 7[0m
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 3
+
+Enter size of first	 matrix: > 3 5
+Enter matrix data: 
+> 1 4 5 6 6
+> 7 8 9 0 0
+> 4 1 2 2 2
+
+Enter size of second	 matrix: > 5 2
+Enter matrix data: 
+> 4 5
+> 6 1
+> 6 0
+> 0 9
+> 7 7
+
+The multiplication result is: 
+100.0 105.0 
+130.0 43.0 
+48.0 53.0 
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+[1;31m
+Start test 8[0m
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 3
+
+Enter size of first	 matrix: > 4 4
+Enter matrix data: 
+> 0.65 0.67 76.4 23.2
+> -0.7 -13.1 -7.2 9.2
+> -0.7 -5.5 -1.5 0.4
+> -1.0 12.6 0.8 -0.4
+
+Enter size of second	 matrix: > 4 4
+Enter matrix data: 
+> -5.5 -0.3 -1.2 10.2
+> -1.0 0.8 0.8 -9.5
+> -45.5 45.5 56.5 13.7
+> -10.7 11.9 2.2 1.2
+
+The multiplication result is: 
+
+-3728.685 	3752.621 4367.396000000001 	1074.785 
+246.11 -228.39000000000001 -396.2 29.71 
+73.32 -67.67999999999999 -87.43 25.040000000000003 
+-39.22 42.02 55.6 -119.42 
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+[1;31m
+Start test 9[0m
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 3
+
+Enter size of first	 matrix: > 4 4
+Enter matrix data: 
+> 0.65 0.67 76.4 23.2
+> -0.7 -13.1 -7.2 9.2
+> -0.7 -5.5 -1.5 0.4
+> -1.0 12.6 0.8 -0.4
+
+Enter size of second	 matrix: > 4 4
+Enter matrix data: 
+> -5.5 -0.3 -1.2 10.2
+> -1.0 0.8 0.8 -9.5
+> -45.5 45.5 56.5 13.7
+> -10.7 11.9 2.2 1.2
+
+The multiplication result is: 
+
+-3728.685 	3752.621 4367.396000000001 	1074.785 
+246.11 -228.39000000000001 -396.2 29.71 
+73.32 -67.67999999999999 -87.43 25.040000000000003 
+-39.22 42.02 55.6 -119.42 
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 3
+
+Enter size of first	 matrix: > 3 5
+Enter matrix data: 
+> 1 4 5 6 6
+> 7 8 9 0 0
+> 4 1 2 2 2
+
+Enter size of second	 matrix: > 5 2
+Enter matrix data: 
+> 4 5
+> 6 1
+> 6 0
+> 0 9
+> 7 7
+
+The multiplication result is: 
+100.0 105.0 
+130.0 43.0 
+48.0 53.0 
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!

@@ -1,0 +1,50 @@
+<h2 style="text-align: center;">Description</h2>
+
+<p>In this stage, you should find an inverse of a matrix. You need to use the information you’ve got in the previous stages. The inverse matrix <span class="math-tex">\( A^{−1} \)</span> is the matrix, the product of which, and the original matrix <span class="math-tex">\(A\)</span> is equal to the identity matrix. You can watch the following <a target="_blank" href="https://www.youtube.com/watch?v=AMLUikdDQGk" rel="noopener noreferrer nofollow">video to better understand inverse matrices</a>.</p>
+
+<p><span class="math-tex">\( A \times A^{-1} = A^{-1} \times A = I \)</span></p>
+
+<p>The identity matrix is the matrix in which all elements of the main diagonal are 1 and all other elements are 0. Example of a <span class="math-tex">\(4, 4\)</span> identity matrix:</p>
+
+<p><span class="math-tex">\(I_{4,4} = \begin{pmatrix} 1 &amp; 0 &amp; 0 &amp;0\\ 0 &amp; 1 &amp; 0 &amp;0 \\ 0 &amp; 0 &amp; 1&amp;0 \\0 &amp; 0 &amp; 0 &amp;1\end{pmatrix}\)</span></p>
+
+<p>The inverse of a matrix can be found using this formula:<br>
+       <br>
+<span class="math-tex">\( A^{-1} = \dfrac{1}{det(A)} \times C^T \)</span></p>
+
+<p>As you can see, it contains a lot of operations you've implemented during the previous stages, such as finding cofactors of all the elements of the matrix, transposition of the matrix, finding the determinant of a matrix, multiplication of a matrix by a constant.</p>
+
+<p><span class="math-tex">\( det(A) \)</span> is a determinant of a matrix <span class="math-tex">\( A \)</span> and <span class="math-tex">\( C^T \)</span> is the matrix that consists of cofactors of all the elements of the matrix <span class="math-tex">\( A \)</span> transposed relative to the main diagonal. The inverse matrix can’t be found if <span class="math-tex">\( det(A) \)</span> equals zero. You can look at the calculation example in <a target="_blank" href="https://www.youtube.com/watch?v=xfhzwNkMNg4" rel="nofollow noopener noreferrer">this</a> video.</p>
+
+<p>Also, you can implement a method that can print a matrix in a readable way; every column would be correctly aligned. You can round the results by two or more digits.</p>
+
+<h2 style="text-align: center;">Example</h2>
+
+<p>Below is an example of what your output might look like:</p>
+
+<pre><code class="language-no-highlight">1. Add matrices
+2. Multiply matrix to a constant
+3. Multiply matrices
+4. Transpose matrix
+5. Calculate a determinant
+6. Inverse matrix
+0. Exit
+Your choice: &gt; 6
+Enter matrix size: &gt; 3 3
+Enter matrix:
+&gt; 2 -1 0
+&gt; 0 1 2
+&gt; 1 1 0
+The result is:
+ 0.33   0  0.33
+-0.33   0  0.66
+ 0.16 0.5 -0.33
+
+1. Add matrices
+2. Multiply matrix to a constant
+3. Multiply matrices
+4. Transpose matrix
+5. Calculate a determinant
+6. Inverse matrix
+0. Exit
+Your choice: &gt; 0</code></pre>
