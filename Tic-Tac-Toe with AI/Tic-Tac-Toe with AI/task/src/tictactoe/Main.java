@@ -6,9 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter cells: ");
-        Game game = new Game(scan.nextLine());
-        game.go();
+        Game game = new Game();
+        while (game.getState() != Game.State.END) game.execute(scan.nextLine());
     }
 
 }
