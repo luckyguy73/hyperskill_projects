@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="NumericMatrixProcessorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-01T04:25:10" hostname="hulk-smash.local" time="0.369">
+<testsuite name="NumericMatrixProcessorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-01T05:20:13" hostname="hulk-smash.local" time="0.394">
   <properties/>
-  <testcase name="start" classname="NumericMatrixProcessorTest" time="0.369"/>
+  <testcase name="start" classname="NumericMatrixProcessorTest" time="0.394"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 
@@ -10,6 +10,7 @@ Start test 1?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 1
@@ -36,6 +37,7 @@ The addition result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -50,6 +52,7 @@ Start test 2?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 1
@@ -79,6 +82,7 @@ The addition result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -93,6 +97,7 @@ Start test 3?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 2
@@ -115,6 +120,7 @@ The result of multiplying by 17 is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -129,6 +135,7 @@ Start test 4?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 2
@@ -153,6 +160,7 @@ The result of multiplying by 111 is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -167,6 +175,7 @@ Start test 5?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 3
@@ -196,6 +205,7 @@ The multiplication result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -210,6 +220,7 @@ Start test 6?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 3
@@ -234,6 +245,7 @@ The multiplication result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -248,6 +260,7 @@ Start test 7?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 3
@@ -276,6 +289,7 @@ The multiplication result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -290,6 +304,7 @@ Start test 8?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 3
@@ -319,6 +334,7 @@ The multiplication result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -333,6 +349,7 @@ Start test 9?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 3
@@ -362,6 +379,7 @@ The multiplication result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 3
@@ -390,6 +408,7 @@ The multiplication result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -404,6 +423,7 @@ Start test 10?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 4
@@ -431,6 +451,7 @@ The result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -445,6 +466,7 @@ Start test 11?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 4
@@ -472,6 +494,7 @@ The result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -486,6 +509,7 @@ Start test 12?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 4
@@ -513,6 +537,7 @@ The result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -527,6 +552,7 @@ Start test 13?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 4
@@ -554,6 +580,7 @@ The result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -568,6 +595,7 @@ Start test 14?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 4
@@ -597,6 +625,7 @@ The result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -611,6 +640,7 @@ Start test 15?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 4
@@ -640,6 +670,7 @@ The result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -654,6 +685,7 @@ Start test 16?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 5
@@ -672,6 +704,7 @@ The result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0
@@ -686,6 +719,7 @@ Start test 17?[0m
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 5
@@ -705,6 +739,81 @@ The result is:
 3) Multiply matrices
 4) Transpose matrix
 5) Calculate a determinant
+6) Inverse Matrix
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+?[1;31m
+Start test 18?[0m
+
+1) Add matrices
+2) Multiply matrix to a constant
+3) Multiply matrices
+4) Transpose matrix
+5) Calculate a determinant
+6) Inverse Matrix
+0) Exit
+
+Your choice: > 6
+
+Enter size of first matrix: > 3 3
+Enter matrix data: 
+> 0.396796 -0.214938 0.276735
+> 5.19655 -2.06983 -0.388886
+> -3.3797 1.50219 0.159794
+
+The result is: 
+1.1471687498033798 2.037168608210866 2.971104092743485 
+2.1905540890037813 4.52055088500524 7.207879930696311 
+3.6700863408506805 0.5900873075600032 1.3381938567935379 
+
+1) Add matrices
+2) Multiply matrix to a constant
+3) Multiply matrices
+4) Transpose matrix
+5) Calculate a determinant
+6) Inverse Matrix
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+?[1;31m
+Start test 19?[0m
+
+1) Add matrices
+2) Multiply matrix to a constant
+3) Multiply matrices
+4) Transpose matrix
+5) Calculate a determinant
+6) Inverse Matrix
+0) Exit
+
+Your choice: > 6
+
+Enter size of first matrix: > 4 4
+Enter matrix data: 
+> 2.65 3.54 3.88 8.99
+> 3.12 5.45 7.77 5.56
+> 5.31 2.23 2.33 9.81
+> 1.67 1.67 1.01 9.99
+
+The result is: 
+0.39679567177361746 -0.21493787377812984 0.2767347084335971 -0.5091997998770783 
+5.196547988368325 -2.069827306821665 -0.3888863361190496 -3.1425176808983886 
+-3.379699165243446 1.502188498832325 0.15979446273138045 2.0484227990626644 
+-0.5933321076617781 0.23006481158969067 0.0025926737613625656 0.5034495661503241 
+
+1) Add matrices
+2) Multiply matrix to a constant
+3) Multiply matrices
+4) Transpose matrix
+5) Calculate a determinant
+6) Inverse Matrix
 0) Exit
 
 Your choice: > 0

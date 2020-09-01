@@ -29,6 +29,7 @@ public class Main {
                         "3) Multiply matrices\n" +
                         "4) Transpose matrix\n" +
                         "5) Calculate a determinant\n" +
+                        "6) Inverse Matrix\n" +
                         "0) Exit\n\n" +
                         "Your choice: ";
         System.out.print("\n" + menu);
@@ -50,6 +51,7 @@ public class Main {
             case "3": multiplyMatrices(); break;
             case "4": transposeMenu(); break;
             case "5": calculateDeterminant(); break;
+            case "6": inverseMatrix(); break;
             case "0": exitProgram(); break;
             default: setDefault();
         }
@@ -115,6 +117,14 @@ public class Main {
         double determinant = Matrix.determinant(A.getData());
         System.out.println("\nThe result is: ");
         System.out.println(determinant);
+        setDefault();
+    }
+
+    private static void inverseMatrix() {
+        createMatrix();
+        Matrix X = Matrix.inverse(A);
+        System.out.println("\nThe result is: ");
+        X.displayMatrix();
         setDefault();
     }
 
