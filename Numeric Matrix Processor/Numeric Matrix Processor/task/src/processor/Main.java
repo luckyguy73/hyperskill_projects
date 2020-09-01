@@ -28,6 +28,7 @@ public class Main {
                         "2) Multiply matrix to a constant\n" +
                         "3) Multiply matrices\n" +
                         "4) Transpose matrix\n" +
+                        "5) Calculate a determinant\n" +
                         "0) Exit\n\n" +
                         "Your choice: ";
         System.out.print("\n" + menu);
@@ -48,6 +49,7 @@ public class Main {
             case "2": multiplyByConstant(); break;
             case "3": multiplyMatrices(); break;
             case "4": transposeMenu(); break;
+            case "5": calculateDeterminant(); break;
             case "0": exitProgram(); break;
             default: setDefault();
         }
@@ -105,6 +107,14 @@ public class Main {
         }
         System.out.println("\nThe result is: ");
         X.displayMatrix();
+        setDefault();
+    }
+
+    private static void calculateDeterminant() {
+        createMatrix();
+        double determinant = Matrix.determinant(A.getData());
+        System.out.println("\nThe result is: ");
+        System.out.println(determinant);
         setDefault();
     }
 

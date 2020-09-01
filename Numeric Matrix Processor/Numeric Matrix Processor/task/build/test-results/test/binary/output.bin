@@ -5,6 +5,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 1
@@ -30,6 +31,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -43,6 +45,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 1
@@ -71,6 +74,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -84,6 +88,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 2
@@ -105,6 +110,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -118,6 +124,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 2
@@ -150,6 +157,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -163,6 +171,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 3
@@ -196,6 +205,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -209,6 +219,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 3
@@ -233,6 +244,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -246,6 +258,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 3
@@ -273,6 +286,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -286,6 +300,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 3
@@ -315,6 +330,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -328,6 +344,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 3
@@ -357,6 +374,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 3
@@ -384,6 +402,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -397,6 +416,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 4
@@ -423,6 +443,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -436,6 +457,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 4
@@ -462,6 +484,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -475,6 +498,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 4
@@ -501,6 +525,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -514,6 +539,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 4
@@ -541,6 +567,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -554,6 +581,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 4
@@ -585,6 +613,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
@@ -598,6 +627,7 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 4
@@ -629,6 +659,72 @@
 !2) Multiply matrix to a constant
 3) Multiply matrices
 4) Transpose matrix
+5) Calculate a determinant
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+[1;31m
+Start test 16[0m
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+4) Transpose matrix
+5) Calculate a determinant
+0) Exit
+
+Your choice: > 5
+
+Enter size of first	 matrix: > 3 3
+Enter matrix data: 
+> 1 2 3
+> 4 5 7
+> 10 22 23
+
+The result is: 
+31.0
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+4) Transpose matrix
+5) Calculate a determinant
+0) Exit
+
+Your choice: > 0
+
+Exiting program...
+Goodbye!
+[1;31m
+Start test 17[0m
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+4) Transpose matrix
+5) Calculate a determinant
+0) Exit
+
+Your choice: > 5
+
+Enter size of first	 matrix: > 4 4
+Enter matrix data: 
+> 2.65 3.54 3.88 8.99
+> 3.12 5.45 7.77 5.56
+> 5.31 2.23 2.33 9.81
+> 1.67 1.67 1.01 9.99
+
+The result is: 
+45.219727119999874
+
+1) Add matrices
+!2) Multiply matrix to a constant
+3) Multiply matrices
+4) Transpose matrix
+5) Calculate a determinant
 0) Exit
 
 Your choice: > 0
