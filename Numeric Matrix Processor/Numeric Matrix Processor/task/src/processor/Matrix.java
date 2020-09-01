@@ -11,38 +11,6 @@ public class Matrix {
         this.data = new double[rows][cols];
     }
 
-    public static Matrix transposeMainDiagonal(Matrix A) {
-        Matrix M = new Matrix(A.getRows(), A.getCols());
-        for (int i = 0; i < M.getRows(); i++)
-            for (int j = 0; j < M.getCols(); j++)
-                M.data[i][j] = A.data[j][i];
-        return M;
-    }
-
-    public static Matrix transposeSideDiagonal(Matrix A) {
-        Matrix M = new Matrix(A.getRows(), A.getCols());
-        for (int i = 0; i < M.getRows(); i++)
-            for (int j = 0; j < M.getCols(); j++)
-                M.data[i][j] = A.data[A.getRows() - j - 1][A.getCols() - i - 1];
-        return M;
-    }
-
-    public static Matrix transposeVerticalLine(Matrix A) {
-        Matrix M = new Matrix(A.getRows(), A.getCols());
-        for (int i = 0; i < M.getRows(); i++)
-            for (int j = 0; j < M.getCols(); j++)
-                M.data[i][j] = A.data[i][A.getCols() - j - 1];
-        return M;
-    }
-
-    public static Matrix transposeHorizontalLine(Matrix A) {
-        Matrix M = new Matrix(A.getRows(), A.getCols());
-        for (int i = 0; i < M.getRows(); i++)
-            for (int j = 0; j < M.getCols(); j++)
-                M.data[i][j] = A.data[A.getRows() - i - 1][j];
-        return M;
-    }
-
     public int getRows() {
         return rows;
     }
@@ -91,5 +59,37 @@ public class Matrix {
                 for (int k = 0; k < A.getCols(); ++k)
                     out.data[i][j] += A.data[i][k] * B.data[k][j];
         return out;
+    }
+
+    public static Matrix transposeMainDiagonal(Matrix A) {
+        Matrix M = new Matrix(A.getRows(), A.getCols());
+        for (int i = 0; i < M.getRows(); i++)
+            for (int j = 0; j < M.getCols(); j++)
+                M.data[i][j] = A.data[j][i];
+        return M;
+    }
+
+    public static Matrix transposeSideDiagonal(Matrix A) {
+        Matrix M = new Matrix(A.getRows(), A.getCols());
+        for (int i = 0; i < M.getRows(); i++)
+            for (int j = 0; j < M.getCols(); j++)
+                M.data[i][j] = A.data[A.getRows() - j - 1][A.getCols() - i - 1];
+        return M;
+    }
+
+    public static Matrix transposeVerticalLine(Matrix A) {
+        Matrix M = new Matrix(A.getRows(), A.getCols());
+        for (int i = 0; i < M.getRows(); i++)
+            for (int j = 0; j < M.getCols(); j++)
+                M.data[i][j] = A.data[i][A.getCols() - j - 1];
+        return M;
+    }
+
+    public static Matrix transposeHorizontalLine(Matrix A) {
+        Matrix M = new Matrix(A.getRows(), A.getCols());
+        for (int i = 0; i < M.getRows(); i++)
+            for (int j = 0; j < M.getCols(); j++)
+                M.data[i][j] = A.data[A.getRows() - i - 1][j];
+        return M;
     }
 }
